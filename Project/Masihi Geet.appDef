@@ -1,0 +1,3345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app-definition type="SAB" program-version="4.3">
+  <project-name>Masihi Geet</project-name>
+  <project-description></project-description>
+
+  <app-name lang="default">Masihi Geet</app-name>
+  <apk-filename append-version="true"></apk-filename>
+  <package>com.digitialchristianlibrary.masihigeet</package>
+  <version code="1" name="1.0" />
+  <android-sdk min="9" />
+  <install-location value="preferExternal" />
+  <ipa-filename append-version="true"></ipa-filename>
+  <ipa-version build="1" name="1.0" />
+
+  <publishing mode="manual">
+  </publishing>
+
+  <about enabled="true">
+    <filename>about.txt</filename>
+  </about>
+
+  <analytics enabled="false">
+  </analytics>
+
+  <audio-settings>
+    <message id="audio-not-found">
+      <filename>audio-not-found.txt</filename>
+    </message>
+  </audio-settings>
+
+  <audio-sources>
+  </audio-sources>
+
+  <expiry type="none">
+    <filename>expiry.txt</filename>
+  </expiry>
+
+  <features type="main">
+    <feature name="app-layout-direction" value="ltr" />
+    <feature name="search" value="true" />
+    <feature name="search-input-buttons" value="true" />
+    <feature name="search-whole-words-show" value="true" />
+    <feature name="search-whole-words-default" value="true" />
+    <feature name="search-accents-show" value="false" />
+    <feature name="search-accents-default" value="false" />
+    <feature name="search-accents-to-remove" value="\u0300 \u0301 \u0302 á&gt;a à&gt;a è&gt;e é&gt;e" />
+    <feature name="editor" value="false" />
+    <feature name="editor-folder" value="Scripture Editor" />
+    <feature name="start-at-reference" value="" />
+    <feature name="splash-screen" value="false" />
+    <feature name="splash-screen-duration" value="800" />
+    <feature name="splash-screen-ios" value="false" />
+    <feature name="splash-screen-duration-ios" value="800" />
+    <feature name="annotation-bookmarks" value="true" />
+    <feature name="annotation-notes" value="true" />
+    <feature name="annotation-highlights" value="true" />
+    <feature name="annotation-share-email" value="" />
+    <feature name="annotation-share-subject" value="" />
+    <feature name="annotation-max-select" value="20" />
+    <feature name="text-select-copy" value="true" />
+    <feature name="text-select-share" value="true" />
+    <feature name="text-select-play-audio" value="true" />
+    <feature name="text-select-long-click" value="true" />
+    <feature name="book-select" value="list" />
+    <feature name="book-group-titles" value="true" />
+    <feature name="book-show-glossary" value="true" />
+    <feature name="book-swipe-between-books" value="true" />
+    <feature name="pinch-zoom" value="true" />
+    <feature name="text-size-min" value="10" />
+    <feature name="text-size-max" value="60" />
+    <feature name="audio-allow-turn-on-off" value="true" />
+    <feature name="audio-turn-on-at-startup" value="false" />
+    <feature name="audio-phrase-end-chars" value=". ? ! : ; ," />
+    <feature name="audio-goto-next-chapter" value="true" />
+    <feature name="audio-goto-next-book" value="false" />
+    <feature name="audio-pause-on-phone-call" value="true" />
+    <feature name="audio-search-all" value="true" />
+    <feature name="audio-seekbar-style" value="if-no-timing-info" />
+    <feature name="audio-highlight-phrase" value="true" />
+    <feature name="audio-speed" value="1.0" />
+    <feature name="audio-download-mode" value="prompt" />
+    <feature name="show-chapter-numbers" value="true" />
+    <feature name="show-verse-numbers" value="true" />
+    <feature name="chapter-number-format" value="drop-cap" />
+    <feature name="verse-layout" value="paragraphs" />
+    <feature name="show-red-letters" value="true" />
+    <feature name="show-footnotes" value="true" />
+    <feature name="show-cross-refs" value="true" />
+    <feature name="show-illustrations" value="false" />
+    <feature name="resize-illustrations" value="true" />
+    <feature name="resize-illustrations-width" value="480" />
+    <feature name="scripture-refs-display" value="popup" />
+    <feature name="show-chapter-number-on-app-bar" value="true" />
+    <feature name="show-chapter-selector" value="true" />
+    <feature name="show-verse-selector" value="true" />
+    <feature name="hide-empty-verses" value="true" />
+    <feature name="hide-empty-chapters" value="true" />
+    <feature name="footnote-caller-type" value="default" />
+    <feature name="footnote-caller-symbol" value="" />
+    <feature name="crossref-caller-type" value="default" />
+    <feature name="crossref-caller-symbol" value="" />
+    <feature name="settings-app-layout-direction" value="false" />
+    <feature name="settings-audio-download-mode" value="true" />
+    <feature name="settings-book-selection" value="true" />
+    <feature name="settings-interface-language" value="true" />
+    <feature name="settings-red-letters" value="false" />
+    <feature name="settings-show-border" value="true" />
+    <feature name="settings-verse-numbers" value="true" />
+    <feature name="settings-verse-layout" value="true" />
+    <feature name="settings-verse-selection" value="true" />
+    <feature name="settings-audio-highlight-phrase" value="true" />
+    <feature name="settings-audio-speed" value="true" />
+    <feature name="settings-audio-download-mode" value="true" />
+    <feature name="settings-keep-screen-on" value="true" />
+    <feature name="share-app-link" value="false" />
+    <feature name="share-apk-file" value="true" />
+  </features>
+
+  <fonts>
+    <font-handling>
+      <grandroid enabled="true" versions="9,10,11,12,13,14,15,16,17,18" />
+    </font-handling>
+
+    <font family="font1">
+      <font-name>Noto Sans Devanagari</font-name>
+      <filename format="truetype">NotoSansDevanagari-Regular.ttf</filename>
+      <style-decl property="font-weight" value="normal" />
+      <style-decl property="font-style" value="normal" />
+    </font>
+    <font family="font1">
+      <font-name>Noto Sans Devanagari UI</font-name>
+      <filename format="truetype">NotoSansDevanagariUI-Regular.ttf</filename>
+      <style-decl property="font-weight" value="normal" />
+      <style-decl property="font-style" value="normal" />
+    </font>
+    <font family="font1">
+      <font-name>Noto Sans Devanagari Bold</font-name>
+      <filename format="truetype">NotoSansDevanagari-Bold.ttf</filename>
+      <style-decl property="font-weight" value="bold" />
+      <style-decl property="font-style" value="normal" />
+    </font>
+    <font family="font1">
+      <font-name>Noto Sans Devanagari UI Bold</font-name>
+      <filename format="truetype">NotoSansDevanagariUI-Bold.ttf</filename>
+      <style-decl property="font-weight" value="bold" />
+      <style-decl property="font-style" value="normal" />
+    </font>
+  </fonts>
+
+  <color-scheme name="Black"/>
+
+  <color-themes>
+    <color-theme name="Normal" enabled="true" default="true" />
+    <color-theme name="Sepia" enabled="true" />
+    <color-theme name="Dark" enabled="true" />
+  </color-themes>
+
+  <colors type="main">
+    <color name="PrimaryColor">
+      <color-mapping theme="Normal" value="#000000" />
+      <color-mapping theme="Sepia" value="#4E342E" />
+      <color-mapping theme="Dark" value="#181818" />
+    </color>
+    <color name="PrimaryDarkColor">
+      <color-mapping theme="Normal" value="#000000" />
+      <color-mapping theme="Sepia" value="#3E2723" />
+      <color-mapping theme="Dark" value="#121212" />
+    </color>
+    <color name="AccentColor">
+      <color-mapping theme="Normal" value="#03A9F4" />
+      <color-mapping theme="Sepia" value="#3E2723" />
+      <color-mapping theme="Dark" value="#121212" />
+    </color>
+    <color name="ActionBarColor">
+      <color-mapping theme="Normal" value="PrimaryColor" />
+      <color-mapping theme="Sepia" value="PrimaryColor" />
+      <color-mapping theme="Dark" value="PrimaryColor" />
+    </color>
+    <color name="StatusBarColor">
+      <color-mapping theme="Normal" value="PrimaryDarkColor" />
+      <color-mapping theme="Sepia" value="PrimaryDarkColor" />
+      <color-mapping theme="Dark" value="PrimaryDarkColor" />
+    </color>
+    <color name="TextColor">
+      <color-mapping theme="Normal" value="#000000" />
+      <color-mapping theme="Sepia" value="#5A4129" />
+      <color-mapping theme="Dark" value="#E0E0E0" />
+    </color>
+    <color name="TitlesColor">
+      <color-mapping theme="Normal" value="#000000" />
+      <color-mapping theme="Sepia" value="#513A24" />
+      <color-mapping theme="Dark" value="#E0E0E0" />
+    </color>
+    <color name="VerseNumberColor">
+      <color-mapping theme="Normal" value="#000000" />
+      <color-mapping theme="Sepia" value="#8D6E63" />
+      <color-mapping theme="Dark" value="#E0E0E0" />
+    </color>
+    <color name="TextHighlightColor">
+      <color-mapping theme="Normal" value="#FFFF99" />
+      <color-mapping theme="Sepia" value="#FFFF99" />
+      <color-mapping theme="Dark" value="#404040" />
+    </color>
+    <color name="LinkColor">
+      <color-mapping theme="Normal" value="#000000" />
+      <color-mapping theme="Sepia" value="#513A24" />
+      <color-mapping theme="Dark" value="#E0E0E0" />
+    </color>
+    <color name="BackgroundColor">
+      <color-mapping theme="Normal" value="#F0F0F0" />
+      <color-mapping theme="Sepia" value="#E9D8BA" />
+      <color-mapping theme="Dark" value="#000000" />
+    </color>
+    <color name="DialogBackgroundColor">
+      <color-mapping theme="Normal" value="#F0F0F0" />
+      <color-mapping theme="Sepia" value="#E9D8BA" />
+      <color-mapping theme="Dark" value="#303030" />
+    </color>
+    <color name="FootnoteBackgroundColor">
+      <color-mapping theme="Normal" value="#E0E0E0" />
+      <color-mapping theme="Sepia" value="#E9D8BA" />
+      <color-mapping theme="Dark" value="#1A1A1A" />
+    </color>
+    <color name="PopupBackgroundColor">
+      <color-mapping theme="Normal" value="#E6E6E6" />
+      <color-mapping theme="Sepia" value="#E9D8BA" />
+      <color-mapping theme="Dark" value="#202020" />
+    </color>
+    <color name="FooterBackgroundColor">
+      <color-mapping theme="Normal" value="#E0E0E0" />
+      <color-mapping theme="Sepia" value="#E0E0E0" />
+      <color-mapping theme="Dark" value="#303030" />
+    </color>
+    <color name="AnnotationItemBackgroundColor">
+      <color-mapping theme="Normal" value="#FFFFFF" />
+      <color-mapping theme="Sepia" value="#ECDDC4" />
+      <color-mapping theme="Dark" value="#202020" />
+    </color>
+    <color name="HistoryItemBackgroundColor">
+      <color-mapping theme="Normal" value="#FFFFFF" />
+      <color-mapping theme="Sepia" value="#ECDDC4" />
+      <color-mapping theme="Dark" value="#202020" />
+    </color>
+    <color name="DialogButtonColor">
+      <color-mapping theme="Normal" value="PrimaryColor" />
+      <color-mapping theme="Sepia" value="PrimaryColor" />
+      <color-mapping theme="Dark" value="#E0E0E0" />
+    </color>
+    <color name="Pane1BackgroundColor">
+      <color-mapping theme="Normal" value="#F0F0F0" />
+      <color-mapping theme="Sepia" value="#E9D8BA" />
+      <color-mapping theme="Dark" value="#000000" />
+    </color>
+    <color name="Pane2BackgroundColor">
+      <color-mapping theme="Normal" value="#E0E0E0" />
+      <color-mapping theme="Sepia" value="#E6D3B2" />
+      <color-mapping theme="Dark" value="#101010" />
+    </color>
+    <color name="Pane1NameTextColor">
+      <color-mapping theme="Normal" value="#909090" />
+      <color-mapping theme="Sepia" value="#AA796E" />
+      <color-mapping theme="Dark" value="#707070" />
+    </color>
+    <color name="Pane2NameTextColor">
+      <color-mapping theme="Normal" value="#909090" />
+      <color-mapping theme="Sepia" value="#AA796E" />
+      <color-mapping theme="Dark" value="#707070" />
+    </color>
+    <color name="PaneSeparatorColor">
+      <color-mapping theme="Normal" value="#D0D0D0" />
+      <color-mapping theme="Sepia" value="#AA796E" />
+      <color-mapping theme="Dark" value="#505050" />
+    </color>
+    <color name="PaneSeparatorHandleColor">
+      <color-mapping theme="Normal" value="#C0C0C0" />
+      <color-mapping theme="Sepia" value="#AA796E" />
+      <color-mapping theme="Dark" value="#909090" />
+    </color>
+    <color name="PaneSeparatorHandleGripColor">
+      <color-mapping theme="Normal" value="#F0F0F0" />
+      <color-mapping theme="Sepia" value="#D9C4BF" />
+      <color-mapping theme="Dark" value="#040404" />
+    </color>
+    <color name="PaneNameBorderColor">
+      <color-mapping theme="Normal" value="#D3D3D3" />
+      <color-mapping theme="Sepia" value="#AA796E" />
+      <color-mapping theme="Dark" value="#707070" />
+    </color>
+    <color name="ChapterButtonColor">
+      <color-mapping theme="Normal" value="#CECECE" />
+      <color-mapping theme="Sepia" value="#D7CCC8" />
+      <color-mapping theme="Dark" value="#202020" />
+    </color>
+    <color name="ChapterButtonTextColor">
+      <color-mapping theme="Normal" value="#000000" />
+      <color-mapping theme="Sepia" value="#000000" />
+      <color-mapping theme="Dark" value="#E0E0E0" />
+    </color>
+    <color name="ChapterButtonIntroColor">
+      <color-mapping theme="Normal" value="#D9D9D9" />
+      <color-mapping theme="Sepia" value="#EFEBE9" />
+      <color-mapping theme="Dark" value="#303030" />
+    </color>
+    <color name="BookListDefaultColor">
+      <color-mapping theme="Normal" value="#E8E8E8" />
+      <color-mapping theme="Sepia" value="#DED4C1" />
+      <color-mapping theme="Dark" value="#101010" />
+    </color>
+    <color name="BookButtonDefaultColor">
+      <color-mapping theme="Normal" value="#CECECE" />
+      <color-mapping theme="Sepia" value="#D7CCC8" />
+      <color-mapping theme="Dark" value="#202020" />
+    </color>
+    <color name="BookButtonTextColor">
+      <color-mapping theme="Normal" value="#000000" />
+      <color-mapping theme="Sepia" value="#000000" />
+      <color-mapping theme="Dark" value="#E0E0E0" />
+    </color>
+    <color name="ButtonSelectedColor">
+      <color-mapping theme="Normal" value="#BDBDBD" />
+      <color-mapping theme="Sepia" value="#BCAAA4" />
+      <color-mapping theme="Dark" value="#101010" />
+    </color>
+    <color name="DrawerBackgroundColor">
+      <color-mapping theme="Normal" value="#FFFFFF" />
+      <color-mapping theme="Sepia" value="#E9D8BA" />
+      <color-mapping theme="Dark" value="#101010" />
+    </color>
+    <color name="DrawerItemTextColor">
+      <color-mapping theme="Normal" value="#212121" />
+      <color-mapping theme="Sepia" value="#212121" />
+      <color-mapping theme="Dark" value="#D0D0D0" />
+    </color>
+    <color name="DrawerItemIconColor">
+      <color-mapping theme="Normal" value="#757575" />
+      <color-mapping theme="Sepia" value="#757575" />
+      <color-mapping theme="Dark" value="#C0C0C0" />
+    </color>
+    <color name="SearchTextColor">
+      <color-mapping theme="Normal" value="#000000" />
+      <color-mapping theme="Sepia" value="#000000" />
+      <color-mapping theme="Dark" value="#E0E0E0" />
+    </color>
+    <color name="SearchButtonColor">
+      <color-mapping theme="Normal" value="#505050" />
+      <color-mapping theme="Sepia" value="#505050" />
+      <color-mapping theme="Dark" value="#505050" />
+    </color>
+    <color name="SearchButtonTextColor">
+      <color-mapping theme="Normal" value="#FFFFFF" />
+      <color-mapping theme="Sepia" value="#FFFFFF" />
+      <color-mapping theme="Dark" value="#FFFFFF" />
+    </color>
+    <color name="SearchProgressButtonColor">
+      <color-mapping theme="Normal" value="#A0A0A0" />
+      <color-mapping theme="Sepia" value="#A0A0A0" />
+      <color-mapping theme="Dark" value="#A0A0A0" />
+    </color>
+    <color name="SearchProgressButtonTextColor">
+      <color-mapping theme="Normal" value="#FFFFFF" />
+      <color-mapping theme="Sepia" value="#FFFFFF" />
+      <color-mapping theme="Dark" value="#FFFFFF" />
+    </color>
+    <color name="SettingsTitleColor">
+      <color-mapping theme="Normal" value="#000000" />
+      <color-mapping theme="Sepia" value="#000000" />
+      <color-mapping theme="Dark" value="#E0E0E0" />
+    </color>
+    <color name="SettingsSummaryColor">
+      <color-mapping theme="Normal" value="#606060" />
+      <color-mapping theme="Sepia" value="#606060" />
+      <color-mapping theme="Dark" value="#B0B0B0" />
+    </color>
+    <color name="SettingsSeparatorColor">
+      <color-mapping theme="Normal" value="#E0E0E0" />
+      <color-mapping theme="Sepia" value="#C9C2C0" />
+      <color-mapping theme="Dark" value="#404040" />
+    </color>
+    <color name="HighlighterPenYellow">
+      <color-mapping theme="Normal" value="#FFFFCC" />
+      <color-mapping theme="Sepia" value="#FFFFCC" />
+      <color-mapping theme="Dark" value="#FFFFCC" />
+    </color>
+    <color name="HighlighterPenGreen">
+      <color-mapping theme="Normal" value="#D6FFEA" />
+      <color-mapping theme="Sepia" value="#D6FFEA" />
+      <color-mapping theme="Dark" value="#D6FFEA" />
+    </color>
+    <color name="HighlighterPenBlue">
+      <color-mapping theme="Normal" value="#B8FBF9" />
+      <color-mapping theme="Sepia" value="#B8FBF9" />
+      <color-mapping theme="Dark" value="#B8FBF9" />
+    </color>
+    <color name="HighlighterPenOrange">
+      <color-mapping theme="Normal" value="#FFE6BC" />
+      <color-mapping theme="Sepia" value="#FFE6BC" />
+      <color-mapping theme="Dark" value="#FFE6BC" />
+    </color>
+    <color name="HighlighterPenPink">
+      <color-mapping theme="Normal" value="#FFD6FF" />
+      <color-mapping theme="Sepia" value="#FFD6FF" />
+      <color-mapping theme="Dark" value="#FFD6FF" />
+    </color>
+    <color name="HighlighterPenTextColor">
+      <color-mapping theme="Normal" value="#000000" />
+      <color-mapping theme="Sepia" value="#5A4129" />
+      <color-mapping theme="Dark" value="#000000" />
+    </color>
+    <color name="AudioBarColor">
+      <color-mapping theme="Normal" value="#FFFFFF" />
+      <color-mapping theme="Sepia" value="#ECDDC4" />
+      <color-mapping theme="Dark" value="#101010" />
+    </color>
+    <color name="AudioBarIconColor">
+      <color-mapping theme="Normal" value="#757575" />
+      <color-mapping theme="Sepia" value="#757575" />
+      <color-mapping theme="Dark" value="#C0C0C0" />
+    </color>
+    <color name="ToolbarShadowColor">
+      <color-mapping theme="Normal" value="#D0D0D0" />
+      <color-mapping theme="Sepia" value="#D0B294" />
+      <color-mapping theme="Dark" value="#404040" />
+    </color>
+    <color name="TextSelectionBarColor">
+      <color-mapping theme="Normal" value="#FFFFFF" />
+      <color-mapping theme="Sepia" value="#ECDDC4" />
+      <color-mapping theme="Dark" value="#101010" />
+    </color>
+    <color name="TextSelectionBarIconColor">
+      <color-mapping theme="Normal" value="#757575" />
+      <color-mapping theme="Sepia" value="#757575" />
+      <color-mapping theme="Dark" value="#C0C0C0" />
+    </color>
+    <color name="ContentsBackgroundColor">
+      <color-mapping theme="Normal" value="#F4F4F4" />
+      <color-mapping theme="Sepia" value="#E9D8BA" />
+      <color-mapping theme="Dark" value="#000000" />
+    </color>
+    <color name="ContentsItemBlockRefColor">
+      <color-mapping theme="Normal" value="#FFFFFF" />
+      <color-mapping theme="Sepia" value="#F2E9D8" />
+      <color-mapping theme="Dark" value="#202020" />
+    </color>
+    <color name="ContentsItemBlockScreenColor">
+      <color-mapping theme="Normal" value="#FDFDFD" />
+      <color-mapping theme="Sepia" value="#F2E9D8" />
+      <color-mapping theme="Dark" value="#202020" />
+    </color>
+    <color name="ContentsItemBlockShadowColor">
+      <color-mapping theme="Normal" value="#E0E0E0" />
+      <color-mapping theme="Sepia" value="#E0E0E0" />
+      <color-mapping theme="Dark" value="#101010" />
+    </color>
+    <color name="ContentsItemTouchColor">
+      <color-mapping theme="Normal" value="#EEEEEE" />
+      <color-mapping theme="Sepia" value="#EEEEEE" />
+      <color-mapping theme="Dark" value="#151515" />
+    </color>
+    <color name="ContentsTitleColor">
+      <color-mapping theme="Normal" value="#000000" />
+      <color-mapping theme="Sepia" value="#513A24" />
+      <color-mapping theme="Dark" value="#E0E0E0" />
+    </color>
+    <color name="ContentsSubtitleColor">
+      <color-mapping theme="Normal" value="#000000" />
+      <color-mapping theme="Sepia" value="#5A4129" />
+      <color-mapping theme="Dark" value="#E0E0E0" />
+    </color>
+    <color name="ContentsReferenceColor">
+      <color-mapping theme="Normal" value="#000000" />
+      <color-mapping theme="Sepia" value="#5A4129" />
+      <color-mapping theme="Dark" value="#E0E0E0" />
+    </color>
+    <color name="VerseByVerseColor1">
+      <color-mapping theme="Normal" value="#000080" />
+      <color-mapping theme="Sepia" value="#000080" />
+      <color-mapping theme="Dark" value="#E0FFFF" />
+    </color>
+    <color name="VerseByVerseColor2">
+      <color-mapping theme="Normal" value="#8B008B" />
+      <color-mapping theme="Sepia" value="#8B008B" />
+      <color-mapping theme="Dark" value="#FFB6C1" />
+    </color>
+    <color name="CustomColor1">
+      <color-mapping theme="Normal" value="#FF0000" />
+      <color-mapping theme="Sepia" value="#FF0000" />
+      <color-mapping theme="Dark" value="#FF0000" />
+    </color>
+    <color name="CustomColor2">
+      <color-mapping theme="Normal" value="#00FF00" />
+      <color-mapping theme="Sepia" value="#00FF00" />
+      <color-mapping theme="Dark" value="#00FF00" />
+    </color>
+    <color name="CustomColor3">
+      <color-mapping theme="Normal" value="#0000FF" />
+      <color-mapping theme="Sepia" value="#0000FF" />
+      <color-mapping theme="Dark" value="#0000FF" />
+    </color>
+    <color name="CustomColor4">
+      <color-mapping theme="Normal" value="#00FFFF" />
+      <color-mapping theme="Sepia" value="#00FFFF" />
+      <color-mapping theme="Dark" value="#00FFFF" />
+    </color>
+    <color name="CustomColor5">
+      <color-mapping theme="Normal" value="#FFFF00" />
+      <color-mapping theme="Sepia" value="#FFFF00" />
+      <color-mapping theme="Dark" value="#FFFF00" />
+    </color>
+  </colors>
+
+  <styles>
+  </styles>
+
+  <markers>
+  </markers>
+
+  <colors type="books">
+  </colors>
+
+  <books id="C01">
+    <book-collection-name>Masihi Geet</book-collection-name>
+    <book-collection-abbrev>mg</book-collection-abbrev>
+
+    <features type="bc">
+      <feature name="show-scripture-refs" value="true" />
+      <feature name="layout-show-config-button" value="true" />
+      <feature name="ref-chapter-verse-separator" value=":" />
+      <feature name="ref-verse-range-separator" value="-" />
+      <feature name="ref-verse-list-separator" value="," />
+      <feature name="ref-chapter-range-separator" value="-" />
+      <feature name="ref-chapter-list-separator" value=";" />
+      <feature name="numerals-type" value="default" />
+    </features>
+
+    <styles-info>
+      <text-font family="font1"/>
+      <text-size value="20"/>
+      <text-direction value="LTR"/>
+      <numeral-system value="Default"/>
+
+      <styles>
+        <style name="div.footer">
+          <style-decl property="direction" value="LTR" />
+          <style-decl property="left" value="LTR" />
+        </style>
+        <style name="span.footer">
+          <style-decl property="font-family" value="font1" />
+          <style-decl property="font-size" value="80%" />
+        </style>
+      </styles>
+    </styles-info>
+
+    <book id="B001">
+      <filename>अक्खा जग तो यीशु को जानरेला है.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\अक्खा जग तो यीशु को जानरेला है.docx</source>
+      <name>अख्खा जग तो यीशु को जान र</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B002">
+      <filename>अब तक हमे जय देने वाले.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\अब तक हमे जय देने वाले.docx</source>
+      <name>अब तक हमें जय देने वाले प</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B003">
+      <filename>आ  प्रभु यीशु आ.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आ  प्रभु यीशु आ.docx</source>
+      <name>आ प्रभु यीशु आ </name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B004">
+      <filename>आ पवित्र आत्मा तू आजा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आ पवित्र आत्मा तू आजा.docx</source>
+      <name>आ पवित्र आत्मा तू आजा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B005">
+      <filename>आओ जग के लोग सब ही.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आओ जग के लोग सब ही.docx</source>
+      <name>आओ जग के लोग सब ही </name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B006">
+      <filename>आओ स्तुति करे राजा पुरोहितो.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आओ स्तुति करे राजा पुरोहितो.docx</source>
+      <name>आओ स्तुति करे राजा पुरोहितो</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B007">
+      <filename>आओ हम यहोवा के लिए ऊँचे.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आओ हम यहोवा के लिए ऊँचे.docx</source>
+      <name>आओ हम यहोवा के लिये ऊँचे </name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B008">
+      <filename>आके तेरे द्वार ,मसीहा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आके तेरे द्वार ,मसीहा.docx</source>
+      <name>आके तेरे द्वार मसीहा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B009">
+      <filename>आके हममे नमूना दिखा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आके हममे नमूना दिखा.docx</source>
+      <name>आके हम में जमजा तू ऐ खुदा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B010">
+      <filename>आखरी नरसिंगा फूंखा जावे.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आखरी नरसिंगा फूंखा जावे.docx</source>
+      <name>आखिरी नरसिंगा फूँका जानेव</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B011">
+      <filename>आज जी उठा जी उठा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आज जी उठा जी उठा.docx</source>
+      <name>आज जी उठा जी उठा मेरा मसी</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B012">
+      <filename>आज नही कल नही परसों बड़ा दिन.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आज नही कल नही परसों बड़ा दिन.docx</source>
+      <name>आज नहीं, कल नहीं</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B013">
+      <filename>आजा देखो मिस्र को.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आजा देखो मिस्र को.docx</source>
+      <name>आज देखा मिस्र को कभी न दे</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B014">
+      <filename>आदर के योग्य वो महिमा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आदर के योग्य वो महिमा.docx</source>
+      <name>आदर के योग्य और महिमा के </name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B015">
+      <filename>आनंद है परम आनंद है.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आनंद है परम आनंद है.docx</source>
+      <name>आनन्द है परम आनन्द है </name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B016">
+      <filename>आनंदित रहो प्रभु मै.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आनंदित रहो प्रभु मै.docx</source>
+      <name>आनंदित रहो प्रभु में आनंद</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B017">
+      <filename>आराधना आराधना स्तुति.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आराधना आराधना स्तुति.docx</source>
+      <name>आराधना आराधना स्तुति</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B018">
+      <filename>आराधना करे हम यीशु की.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आराधना करे हम यीशु की.docx</source>
+      <name>आराधना करें हम यीशु की</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B019">
+      <filename>आराधना में है छुटकारा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आराधना में है छुटकारा.docx</source>
+      <name>आराधना मे है छुटकारा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B020">
+      <filename>आराधना हो आत्मा से.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\आराधना हो आत्मा से.docx</source>
+      <name>आराधना हो आत्मा से</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B021">
+      <filename>उठाते है तेरा नाम.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\उठाते है तेरा नाम.docx</source>
+      <name>उठाते है तेरा नाम</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B022">
+      <filename>उसने दाखरस और.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\उसने दाखरस और.docx</source>
+      <name>उसने दाखरस और तेल उंडेला</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B023">
+      <filename>कभी भी यीशु न छोड़ेगा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\कभी भी यीशु न छोड़ेगा.docx</source>
+      <name>कभी भी यीशु न छोड़ेगा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B024">
+      <filename>करता हूँ मै तेरी चिंता.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\करता हूँ मै तेरी चिंता.docx</source>
+      <name>करता हूँ मैं तेरी चिन्ता </name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B025">
+      <filename>कलवरी पर यीशु मुआ.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\कलवरी पर यीशु मुआ.docx</source>
+      <name>कलवरी पर यीशु मुआ</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B026">
+      <filename>कुछ है मेरे अंदर.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\कुछ है मेरे अंदर.docx</source>
+      <name>कुछ है मेरे अन्‍दर</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B027">
+      <filename>कृपा पाने वाले स्तुति करे.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\कृपा पाने वाले स्तुति करे.docx</source>
+      <name>कृपा पाने वाले स्तुति करे</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B028">
+      <filename>कौन जाएगा कौन मेरे लिए.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\कौन जाएगा कौन मेरे लिए.docx</source>
+      <name>कौन जाएगा, कौन मेरे लिए</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B029">
+      <filename>खबरदार छोटी आंख क्या देखती.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\खबरदार छोटी आंख क्या देखती.docx</source>
+      <name>खबरदार छोटी आंख क्या द</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B030">
+      <filename>खुदा से मांगो मिलेगा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\खुदा से मांगो मिलेगा.docx</source>
+      <name>खुदा से मांगो मिलेगा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B031">
+      <filename>खुल जायेगी किताबें.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\खुल जायेगी किताबें.docx</source>
+      <name>खुल जाएँगी  किताबें</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B032">
+      <filename>गाने का दिल और बजाने का जीवन.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\गाने का दिल और बजाने का जीवन.docx</source>
+      <name>गाने का दिल और बजाने का ज</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B033">
+      <filename>गुनहगारों को देने सहारा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\गुनहगारों को देने सहारा.docx</source>
+      <name>गुनाहगारों को देने सहारा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B034">
+      <filename>घुमा घुमा के मारा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\घुमा घुमा के मारा.docx</source>
+      <name>घुमा घुमा के मारा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B035">
+      <filename>चट्‌टान पर बुद्धिमान ने.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\चट्‌टान पर बुद्धिमान ने.docx</source>
+      <name>चट्‌टान पर बुद्धिमान</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B036">
+      <filename>चले जाना है दूर से दूर तलक.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\चले जाना है दूर से दूर तलक.docx</source>
+      <name>चले जाना है दूर से दूर तल</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B037">
+      <filename>चार दिन की ज़िन्दगी.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\चार दिन की ज़िन्दगी.docx</source>
+      <name>चार दिन की ज़िन्दगी है</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B038">
+      <filename>छू मुझे छू.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\छू मुझे छू.docx</source>
+      <name>छू मुझे छू</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B039">
+      <filename>छोटी चिड़ियाँ.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\छोटी चिड़ियाँ.docx</source>
+      <name>छोटी चिड़िया, छोटी चिड़िय</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B040">
+      <filename>छोटी छोटी जीवन गाड़ी.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\छोटी छोटी जीवन गाड़ी.docx</source>
+      <name>छोटी छोटी जीवन गाड़ी</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B041">
+      <filename>छोड़ दे छोड़ दे.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\छोड़ दे छोड़ दे.docx</source>
+      <name>छोड़ दे, छोड़ दे</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B042">
+      <filename>जंगली दरख्तों  के दरमियान.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\जंगली दरख्तों  के दरमियान.docx</source>
+      <name>जंगली दरख्‍तों के दर्म</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B043">
+      <filename>जग के लोगो प्रभु के गुण गाओ.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\जग के लोगो प्रभु के गुण गाओ.docx</source>
+      <name>जग के लोगो प्रभु के गुण ग</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B044">
+      <filename>जब भी तुझको पुकारा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\जब भी तुझको पुकारा.docx</source>
+      <name>जब भी तुझको पुकारा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B045">
+      <filename>जय जय प्रभु यीशु की.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\जय जय प्रभु यीशु की.docx</source>
+      <name>जय जय प्रभु येशु की</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B046">
+      <filename>जागो सोने वालो.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\जागो सोने वालो.docx</source>
+      <name>जागो सोने वालो, वक्‍त अब </name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B047">
+      <filename>जीवन जल आत्मा प्रभु.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\जीवन जल आत्मा प्रभु.docx</source>
+      <name>जीवन जल आत्‍मा प्रभु</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B048">
+      <filename>जीवन से भी उत्तम तेरी.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\जीवन से भी उत्तम तेरी.docx</source>
+      <name>जीवन से भी उत्तम तेरी</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B049">
+      <filename>जैसे हरिणी जल के लिए हाँफती है.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\जैसे हरिणी जल के लिए हाँफती है.docx</source>
+      <name>जैसे हरिणी जल के लिए हाँफ</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B050">
+      <filename>तू ही तो हक और तू ही रस्ता.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\तू ही तो हक और तू ही रस्ता.docx</source>
+      <name>तू ही तो हक और तू ही रास्</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B051">
+      <filename>तूने मुझे आगे पीछे घेर रखा है.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\तूने मुझे आगे पीछे घेर रखा है.docx</source>
+      <name>तूने मुझे आगे पीछे घेर रख</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B052">
+      <filename>तेरा हूँ ऐ रब्ब।.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\तेरा हूँ ऐ रब्ब।.docx</source>
+      <name>तेरा हूँ ऐ रब्‍ब</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B053">
+      <filename>तेरा हूँ यीशु मै तेरा हूँ.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\तेरा हूँ यीशु मै तेरा हूँ.docx</source>
+      <name>तेरा हूँ, यीशु मैं तेरा ह</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B054">
+      <filename>तेरा हो अभिषेक.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\तेरा हो अभिषेक.docx</source>
+      <name>तेरा हो अभिषेक, अमन के रा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B055">
+      <filename>तेरी आराधना.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\तेरी आराधना.docx</source>
+      <name>तेरी आराधना करूं</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B056">
+      <filename>तेरी कुदरत मेरे खुदा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\तेरी कुदरत मेरे खुदा.docx</source>
+      <name>तेरी कुदरत मेरे खुदा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B057">
+      <filename>तेरी बरकतें हम पर हों.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\तेरी बरकतें हम पर हों.docx</source>
+      <name>तेरी बरकतें हम पर हों</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B058">
+      <filename>तेरे दिल के द्वार पर यीशु खटखटाता.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\तेरे दिल के द्वार पर यीशु खटखटाता.docx</source>
+      <name>तेरे दिल के द्वार पर यीशु</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B059">
+      <filename>तेरे दिल में मुझको जगह मिली.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\तेरे दिल में मुझको जगह मिली.docx</source>
+      <name>तेरे दिल में मुझको जगह मि</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B060">
+      <filename>तेरे पास आता हूँ.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\तेरे पास आता हूँ.docx</source>
+      <name>तेरे पास आता हूँ</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B061">
+      <filename>तेरे बिना ज़िन्दगी.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\तेरे बिना ज़िन्दगी.docx</source>
+      <name>तेरे बिना ज़िन्दगी</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B062">
+      <filename>तेरे लहू से पाप धोता  हूँ.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\तेरे लहू से पाप धोता  हूँ.docx</source>
+      <name>तेरे लहू से पाप धोता हूँ </name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B063">
+      <filename>तेरे सिवा दुनियाँ में मेरा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\तेरे सिवा दुनियाँ में मेरा.docx</source>
+      <name>तेरे सिवा दुनियाँ में मेर</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B064">
+      <filename>देख तेरा राजा आता है.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\देख तेरा राजा आता है.docx</source>
+      <name>देख तेरा राजा आता है</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B065">
+      <filename>धन्य धन्य तुझको प्रभु.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\धन्य धन्य तुझको प्रभु.docx</source>
+      <name>धन्य धन्य तुझको प्रभु</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B066">
+      <filename>धन्यवाद सदा प्रभु कृष्ट तुझे.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\धन्यवाद सदा प्रभु कृष्ट तुझे.docx</source>
+      <name>ध्‍न्‍यावाद सदा प्रभु</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B067">
+      <filename>न तो बल से न शक्.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\न तो बल से न शक्.docx</source>
+      <name>न तो बल से न शक्‍ति से</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B068">
+      <filename>नन्हे मुन्ने बच्चो आओ.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\नन्हे मुन्ने बच्चो आओ.docx</source>
+      <name>नन्‍हे मुन्‍ने बच्‍चो</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B069">
+      <filename>नाम लियो रे नाम लियो रे.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\नाम लियो रे नाम लियो रे.docx</source>
+      <name>नाम लियो रे नाम लिय रे</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B070">
+      <filename>नीले गगन में चमकें तारे.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\नीले गगन में चमकें तारे.docx</source>
+      <name>नीले गगन में चमकें तारे,</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B071">
+      <filename>पहाड़ों तजक नज़र उठाऊँगा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\पहाड़ों तजक नज़र उठाऊँगा.docx</source>
+      <name>पहाड़ों की तरफ नज़र उठाऊँगा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B072">
+      <filename>पास तेरे ऐ खुदा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\पास तेरे ऐ खुदा.docx</source>
+      <name>पास तेरे ऐ खुदा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B073">
+      <filename>पिफर से वो आग बरसा दे.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\पिफर से वो आग बरसा दे.docx</source>
+      <name>फिर से वो आग बरसा दे</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B074">
+      <filename>प्यारों  हिम्मत बांधो आगे बढ़ो.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\प्यारों  हिम्मत बांधो आगे बढ़ो.docx</source>
+      <name>प्‍यारो हिम्‍मत बाँधे आगे</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B075">
+      <filename>प्रभु का कर धन्यवाद.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\प्रभु का कर धन्यवाद.docx</source>
+      <name>प्रभु का कर धन्यवाद</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B076">
+      <filename>प्रभु का दर्शन.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\प्रभु का दर्शन.docx</source>
+      <name>प्रभु का दर्शन</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B077">
+      <filename>प्रभु का नाम मेरी ख़ुशी है.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\प्रभु का नाम मेरी ख़ुशी है.docx</source>
+      <name>प्रभु का नाम मेरी खुशी है</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B078">
+      <filename>प्रभु तेरा प्यार सागर से भी गहरा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\प्रभु तेरा प्यार सागर से भी गहरा.docx</source>
+      <name>प्रभु तेरा प्‍यार सागर से</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B079">
+      <filename>प्रभु परमेश्व र तू कितना भला है.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\प्रभु परमेश्व र तू कितना भला है.docx</source>
+      <name>प्रभु परमेश्‍वर तू कितना </name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B080">
+      <filename>भज पावनतम यीशु नाम.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\भज पावनतम यीशु नाम.docx</source>
+      <name>भज पावनतम यीशु नाम</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B081">
+      <filename>भजन करूं मैं भजन करूं.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\भजन करूं मैं भजन करूं.docx</source>
+      <name>भजन करूं मैं भजन</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B082">
+      <filename>भजो नाम मीठा नाम.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\भजो नाम मीठा नाम.docx</source>
+      <name>भजो मीठा नाम, प्रभु यीशु </name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B083">
+      <filename>भरपूर जीवन तेरे लिए.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\भरपूर जीवन तेरे लिए.docx</source>
+      <name>भरपूर जीवन तेरे लिए</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B084">
+      <filename>मन मन्दिeर में बसनेवाला.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\मन मन्दिeर में बसनेवाला.docx</source>
+      <name>मन मन्‍दिर में बसनेवाला</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B085">
+      <filename>मनाये हम.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\मनाये हम.docx</source>
+      <name>मनाये  हम</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B086">
+      <filename>मसीह बिना जीना बेकार है.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\मसीह बिना जीना बेकार है.docx</source>
+      <name>मसीह बिना जीना बेकार ह</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B087">
+      <filename>मसीहा तू हमको बचाले गुनाहों से छुड.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\मसीहा तू हमको बचाले गुनाहों से छुड.docx</source>
+      <name>मसीहा तू हमको बचाले गुनाह</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B088">
+      <filename>मुक्तिु दिलाये, यीशु नाम.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\मुक्तिु दिलाये, यीशु नाम.docx</source>
+      <name>मुक्‍ति दिलाये, यीशु नाम</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B089">
+      <filename>मुझको मसीह के प्यार से कौन जुदा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\मुझको मसीह के प्यार से कौन जुदा.docx</source>
+      <name>मुझको मसीह के प्यार से</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B090">
+      <filename>मुझपे रहम कर.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\मुझपे रहम कर.docx</source>
+      <name>मुझपे रहम कर</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B091">
+      <filename>मेरा एक ही मित्रा यीशु.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\मेरा एक ही मित्रा यीशु.docx</source>
+      <name>मेरा एक ही मित्र यीशु</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B092">
+      <filename>मेरा प्रभु जन्.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\मेरा प्रभु जन्.docx</source>
+      <name>मेरा प्रभु जन्‍मा, प्‍यार</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B093">
+      <filename>मेरे गुनाह के लिए तूने सजा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\मेरे गुनाह के लिए तूने सजा.docx</source>
+      <name>मेरे गुनाह के लिए तूने सज</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B094">
+      <filename>मेरे जीवन का मकसद तू है.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\मेरे जीवन का मकसद तू है.docx</source>
+      <name>मेरे जीवन का मकसद तू है</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B095">
+      <filename>यीशु का दरबार रे मोहे प्यारा लगत है.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\यीशु का दरबार रे मोहे प्यारा लगत है.docx</source>
+      <name>यीशु का दरबार, मोहे प्यार</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B096">
+      <filename>यीशु का नाम सुखदाई भजन करो.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\यीशु का नाम सुखदाई भजन करो.docx</source>
+      <name>यीशु का नाम सुखदाई भजन कर</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B097">
+      <filename>यीशु के पीछे मैं चलने लगा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\यीशु के पीछे मैं चलने लगा.docx</source>
+      <name>यीशु के पीछे मैं चलने लगा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B098">
+      <filename>यीशु को मैं सब कुछ देता.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\यीशु को मैं सब कुछ देता.docx</source>
+      <name>यीशु को मैं सब कुछ</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B099">
+      <filename>यीशु जल्दीो आएगा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\यीशु जल्दीो आएगा.docx</source>
+      <name>यीशु जल्‍दी आएगा, वो ज़रूर</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B100">
+      <filename>यीशु तू है महान.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\यीशु तू है महान.docx</source>
+      <name>यीशु तू है महान</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B101">
+      <filename>यीशु ने कलवरी दुःख क्.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\यीशु ने कलवरी दुःख क्.docx</source>
+      <name>यीशु ने कलवरी दुःख क्‍यों</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B102">
+      <filename>यीशु मसीह देता खुशी.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\यीशु मसीह देता खुशी.docx</source>
+      <name>यीशु मसीह देता खुशी</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B103">
+      <filename>यीशु मसीह नही.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\यीशु मसीह नही.docx</source>
+      <name>यीशु मसीह नही बदलता</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B104">
+      <filename>यीशु में यारो मज़ा ही मज़ा है.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\यीशु में यारो मज़ा ही मज़ा है.docx</source>
+      <name>यीशु में यारो मज़ा ही मज़ा </name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B105">
+      <filename>यीशु मेरा चरवाहा मैं उसका गुण गाता हूँ.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\यीशु मेरा चरवाहा मैं उसका गुण गाता हूँ.docx</source>
+      <name>यीशु मेरा चरवाहा मैं उसका</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B106">
+      <filename>यीशु सलीब पर मुआ.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\यीशु सलीब पर मुआ.docx</source>
+      <name>यीशु सलीब पर मुआ</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B107">
+      <filename>यीशु ही सब कुछ है.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\यीशु ही सब कुछ है.docx</source>
+      <name>यीशु ही सब कुछ है</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B108">
+      <filename>ये जीवन है क्या.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\ये जीवन है क्या.docx</source>
+      <name>ये जीवन है क्‍या, तेरे बि</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B109">
+      <filename>रक्त म जयम रक्तोम जयम.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\रक्त म जयम रक्तोम जयम.docx</source>
+      <name>रक्‍तम जयम रक्‍तम जयम</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B110">
+      <filename>राजाधिराज महिमा के साथ.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\राजाधिराज महिमा के साथ.docx</source>
+      <name>राजाधी राजा, महिमा के साथ</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B111">
+      <filename>राहों में काँटे अगर हो.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\राहों में काँटे अगर हो.docx</source>
+      <name>राहों में काँटे अगर</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B112">
+      <filename>ले चल मेरी आत्.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\ले चल मेरी आत्.docx</source>
+      <name>ले चल मेरी आत्‍मा को तू</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B113">
+      <filename>वहाँ हाल्लेहलूयाह हुल्लाड़ होवेगा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\वहाँ हाल्लेहलूयाह हुल्लाड़ होवेगा.docx</source>
+      <name>वहाँ हाल्‍लेलूयाह</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B114">
+      <filename>विजय हुआ विजय हुआ.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\विजय हुआ विजय हुआ.docx</source>
+      <name>विजय हुआ, विजय हुआ</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B115">
+      <filename>विनती सुनने वाले मेरे.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\विनती सुनने वाले मेरे.docx</source>
+      <name>विनती सुनने वाले</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B116">
+      <filename>षारोन का गुलाब.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\षारोन का गुलाब.docx</source>
+      <name>शारोन का गुलाब</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B117">
+      <filename>संतोष उमड़ रहा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\संतोष उमड़ रहा.docx</source>
+      <name>संतोष उमड़ रहा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B118">
+      <filename>सारे जग में तेरी प्रशंसा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\सारे जग में तेरी प्रशंसा.docx</source>
+      <name>सारे जग में तेरी प्रशंसा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B119">
+      <filename>सारे पापं और दाग मिटाकर.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\सारे पापं और दाग मिटाकर.docx</source>
+      <name>सारे पाप और दाग मिटाकर</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B120">
+      <filename>सिय्योंन के सफर में मेरे मन व्याकुल न.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\सिय्योंन के सफर में मेरे मन व्याकुल न.docx</source>
+      <name>सिय्योन के सफर में</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B121">
+      <filename>सिय्योंन देश हमारा है देश.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\सिय्योंन देश हमारा है देश.docx</source>
+      <name>सिय्योन देश हमारा है देश</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+        <feature name="lock-orientation" value="none" />
+      </features>
+    </book>
+
+    <book id="B122">
+      <filename>सिर्फ यीशु का नाम है सारी ज़मीन.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\सिर्फ यीशु का नाम है सारी ज़मीन.docx</source>
+      <name>सिर्फ यीशु का नाम है सारी</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B123">
+      <filename>सुन लो मेरे भाईयों मसीहा.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\सुन लो मेरे भाईयों मसीहा.docx</source>
+      <name>सुन लो मेरे भाईयों मसीहा</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B124">
+      <filename>सुबह सुबह स्.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\सुबह सुबह स्.docx</source>
+      <name>सुबह सुबह स्‍तुति बलि</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B125">
+      <filename>सेनाओं का यहोवा हमारे संग.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\सेनाओं का यहोवा हमारे संग.docx</source>
+      <name>सेनाओं का यहोवा हमारे संग</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B126">
+      <filename>हल्लेलुयाह हल्लेलुयाह गायेंगे.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\हल्लेलुयाह हल्लेलुयाह गायेंगे.docx</source>
+      <name>हालेलुयाह हालेलुयाह गायें</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+
+    <book id="B127">
+      <filename>हे जाति जाति के सब लोगो.docx</filename>
+      <source>E:\Digital_Christian_Library_Repository\Masihi Geet Repo\हे जाति जाति के सब लोगो.docx</source>
+      <name>हे जाति जाति के सब लोगो</name>
+
+      <features type="book">
+        <feature name="show-chapter-numbers" value="no" />
+      </features>
+    </book>
+  </books>
+
+  <books id="C02">
+    <book-collection-name>Agape Song Book</book-collection-name>
+    <book-collection-abbrev>asb</book-collection-abbrev>
+
+    <features type="bc">
+      <feature name="show-scripture-refs" value="true" />
+      <feature name="layout-show-config-button" value="true" />
+      <feature name="ref-chapter-verse-separator" value=":" />
+      <feature name="ref-verse-range-separator" value="-" />
+      <feature name="ref-verse-list-separator" value="," />
+      <feature name="ref-chapter-range-separator" value="-" />
+      <feature name="ref-chapter-list-separator" value=";" />
+      <feature name="numerals-type" value="default" />
+    </features>
+
+    <styles-info>
+      <text-font family="font1"/>
+      <text-size value="20"/>
+      <text-direction value="LTR"/>
+      <numeral-system value="Default"/>
+    </styles-info>
+  </books>
+
+  <features type="epub">
+    <feature name="epub-toc-book-names" value="true" />
+    <feature name="epub-toc-chapter-numbers" value="true" />
+    <feature name="epub-toc-section-headings" value="true" />
+  </features>
+
+  <layouts default="single">
+    <layout mode="single" enabled="true">
+      <layout-collection id="mg"/>
+    </layout>
+    <layout mode="two" enabled="true">
+      <layout-collection id="mg"/>
+      <layout-collection id="asb"/>
+
+      <features type="layout">
+        <feature name="link" value="true" />
+        <feature name="size-portrait" value="60" />
+        <feature name="size-landscape" value="60" />
+      </features>
+    </layout>
+    <layout mode="verse-by-verse" enabled="true">
+      <layout-collection id="mg"/>
+      <layout-collection id="asb"/>
+    </layout>
+  </layouts>
+
+  <security mode="any">
+
+    <features>
+      <feature name="access-code-length" value="8" />
+      <feature name="access-code-algorithm" value="B" />
+    </features>
+    <pin>zHHrZWVJ5xo=</pin>
+
+    <styles>
+    </styles>
+  </security>
+
+  <interface-languages>
+    <trait name="use-system-language" value="true"/>
+
+    <writing-systems>
+      <writing-system code="en" type="interface" enabled="true">
+        <display-names>
+          <form lang="en">English</form>
+          <form lang="fr">Anglais</form>
+          <form lang="es">Inglés</form>
+          <form lang="tr">İngilizce</form>
+          <form lang="id">Inggris</form>
+          <form lang="hin">अंग्रेजी</form>
+          <form lang="mal">ഇംഗ്ലീഷ്</form>
+          <form lang="pt">Inglês</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="fr" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">French</form>
+          <form lang="fr">Français</form>
+          <form lang="es">Francés</form>
+          <form lang="tr">Fransızca</form>
+          <form lang="id">Perancis</form>
+          <form lang="hin">फ्रांसीसी</form>
+          <form lang="mal">ഫ്രഞ്ച്</form>
+          <form lang="pt">Francês</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="es" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Spanish</form>
+          <form lang="fr">Espagnol</form>
+          <form lang="es">Español</form>
+          <form lang="tr">İspanyolca</form>
+          <form lang="id">Spanyol</form>
+          <form lang="hin">स्पेनिश</form>
+          <form lang="mal">സ്പാനിഷ്‌</form>
+          <form lang="pt">Espanhol</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="pt" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Portuguese</form>
+          <form lang="fr">Portugais</form>
+          <form lang="es">Portugués</form>
+          <form lang="tr">Portekizce</form>
+          <form lang="id">Portugis</form>
+          <form lang="hin">पुर्तगाली</form>
+          <form lang="mal">പോര്‍ച്ചുഗീസ്</form>
+          <form lang="pt">Português</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="ru" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Russian</form>
+          <form lang="fr">Russe</form>
+          <form lang="es">Ruso</form>
+          <form lang="tr">Rusça</form>
+          <form lang="id">Rusia</form>
+          <form lang="hin">रूसी</form>
+          <form lang="mal">റഷ്യന്‍</form>
+          <form lang="pt">Russo</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="uk" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Ukrainian</form>
+          <form lang="fr">Ukrainien</form>
+          <form lang="tr">Ukraynaca</form>
+          <form lang="id">Ukraina</form>
+          <form lang="hin">यूक्रेनी</form>
+          <form lang="mal">ഉക്രേനിയന്‍</form>
+          <form lang="es">Ucraniano</form>
+          <form lang="pt">Ucraniano</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="tr" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Turkish</form>
+          <form lang="es">Turco</form>
+          <form lang="fr">Turc</form>
+          <form lang="tr">Türkçe</form>
+          <form lang="pt">Turco</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="id" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Indonesian</form>
+          <form lang="fr">Indonesien</form>
+          <form lang="es">Indonesio</form>
+          <form lang="tr">Endonezyaca</form>
+          <form lang="id">Bahasa Indonesia</form>
+          <form lang="hin">इन्डोनेशियाई</form>
+          <form lang="mal">ഇന്തോനേഷ്യന്‍</form>
+          <form lang="pt">Indonésio</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="zh" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Chinese (Simplified)</form>
+          <form lang="fr">Chinois (simplifié)</form>
+          <form lang="tr">Çince (Basitleştirilmiş)</form>
+          <form lang="id">Cina</form>
+          <form lang="hin">चीनी</form>
+          <form lang="mal">ചൈനീസ്</form>
+          <form lang="es">Chino (Simplificado)</form>
+          <form lang="pt">Chinês (Simplificado)</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="hin" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Hindi</form>
+          <form lang="fr">Hindi</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="mal" type="interface" enabled="false">
+        <display-names>
+          <form lang="en">Malayalam</form>
+          <form lang="fr">Malayalam</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+    </writing-systems>
+  </interface-languages>
+
+  <translation-mappings default-lang="en">
+    <translation-mapping id="Menu_Contents">
+      <translation lang="en">Contents</translation>
+      <translation lang="fr">Contenu</translation>
+      <translation lang="tr">İçindekiler</translation>
+      <translation lang="id">Isi</translation>
+      <translation lang="mal">ഉള്ളടക്കം</translation>
+      <translation lang="hin">अंतर्वस्तु</translation>
+      <translation lang="es">Contenido</translation>
+      <translation lang="pt">Conteúdo</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Search">
+      <translation lang="en">Search</translation>
+      <translation lang="fr">Rechercher</translation>
+      <translation lang="es">Buscar</translation>
+      <translation lang="pt">Pesquisar</translation>
+      <translation lang="ru">Поиск</translation>
+      <translation lang="uk">Пошук</translation>
+      <translation lang="tr">Arama</translation>
+      <translation lang="id">Pencarian</translation>
+      <translation lang="zh">搜索</translation>
+      <translation lang="hin">खोज</translation>
+      <translation lang="mal">തിരയുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Layout">
+      <translation lang="en">Language &amp; Layout</translation>
+      <translation lang="fr">Langue et agencement</translation>
+      <translation lang="tr">Dil ve Yerleşim</translation>
+      <translation lang="id">Bahasa dan Tata Letak</translation>
+      <translation lang="hin">भाषा और ख़ाका</translation>
+      <translation lang="mal">ഭാഷയും ലേഔട്ടും</translation>
+      <translation lang="es">Idioma y diseño</translation>
+      <translation lang="pt">Idioma &amp; Layout</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_History">
+      <translation lang="en">History</translation>
+      <translation lang="fr">Historique</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Settings">
+      <translation lang="en">Settings</translation>
+      <translation lang="fr">Paramètres</translation>
+      <translation lang="es">Configuración</translation>
+      <translation lang="pt">Configurações</translation>
+      <translation lang="ru">Настройки</translation>
+      <translation lang="uk">Налаштування</translation>
+      <translation lang="tr">Ayarlar</translation>
+      <translation lang="zh">设置</translation>
+      <translation lang="id">Pengaturan</translation>
+      <translation lang="hin">सेटिंग्स</translation>
+      <translation lang="mal">ക്രമീകരണങ്ങള്‍</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_About">
+      <translation lang="en">About</translation>
+      <translation lang="fr">A propos</translation>
+      <translation lang="es">Acerca de</translation>
+      <translation lang="pt">Sobre</translation>
+      <translation lang="ru">О программе</translation>
+      <translation lang="uk">Про програму</translation>
+      <translation lang="tr">Hakkında</translation>
+      <translation lang="id">Seputar</translation>
+      <translation lang="zh">关于</translation>
+      <translation lang="hin">विषय</translation>
+      <translation lang="mal">കൂടുതല്‍ വിവരങ്ങള്‍</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Text_Appearance">
+      <translation lang="en">Text Appearance</translation>
+      <translation lang="fr">Taille de police</translation>
+      <translation lang="es">Tamaño de texto</translation>
+      <translation lang="pt">Aparência do Texto</translation>
+      <translation lang="ru">Размер текста</translation>
+      <translation lang="uk">Розмір тексту</translation>
+      <translation lang="tr">Metin Görünüşü</translation>
+      <translation lang="id">Ukuran teks</translation>
+      <translation lang="zh">文字大小</translation>
+      <translation lang="hin">दिखावट</translation>
+      <translation lang="mal">അക്ഷര ക്രമീകരണം</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Share_App">
+      <translation lang="en">Share App</translation>
+      <translation lang="fr">Partager application</translation>
+      <translation lang="es">Compartir aplicación</translation>
+      <translation lang="pt">Compartilhar Aplicativo</translation>
+      <translation lang="tr">Uygulamayı Paylaş</translation>
+      <translation lang="id">Bagikan aplikasi</translation>
+      <translation lang="hin">ऐप को लागू करना</translation>
+      <translation lang="mal">ആപ്പ് ഷെയര്‍ ചെയ്യുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Edit">
+      <translation lang="en">Edit</translation>
+      <translation lang="fr">Editer</translation>
+      <translation lang="es">Editar</translation>
+      <translation lang="pt">Editar</translation>
+      <translation lang="ru">Редактировать</translation>
+      <translation lang="uk">Редаргувати</translation>
+      <translation lang="tr">Düzenle</translation>
+      <translation lang="id">Sunting</translation>
+      <translation lang="zh">编辑</translation>
+      <translation lang="hin">सम्पादित</translation>
+      <translation lang="mal">തിരുത്തുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Users_Add">
+      <translation lang="en">Add User</translation>
+      <translation lang="fr">Ajouter utilisateur</translation>
+      <translation lang="pt">Adicionar Usuário</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Users_List">
+      <translation lang="en">Users</translation>
+      <translation lang="fr">Utilisateurs</translation>
+      <translation lang="pt">Usuários</translation>
+    </translation-mapping>
+    <translation-mapping id="Menu_Home">
+      <translation lang="en">Home</translation>
+      <translation lang="fr">Accueil</translation>
+      <translation lang="tr">Ev</translation>
+      <translation lang="id">Beranda</translation>
+      <translation lang="hin">होम</translation>
+      <translation lang="mal">ഹോം</translation>
+      <translation lang="es">Página principal</translation>
+      <translation lang="pt">Página Inicial</translation>
+    </translation-mapping>
+    <translation-mapping id="Annotation_Bookmarks">
+      <translation lang="en">Bookmarks</translation>
+      <translation lang="fr">Signets</translation>
+      <translation lang="tr">Yer imleri</translation>
+      <translation lang="id">Bookmark</translation>
+      <translation lang="hin">बुक मार्क</translation>
+      <translation lang="mal">ബുക്ക് മാർക്കുകൾ</translation>
+      <translation lang="es">Marcadores</translation>
+      <translation lang="pt">Favoritos</translation>
+    </translation-mapping>
+    <translation-mapping id="Annotation_Highlights">
+      <translation lang="en">Highlights</translation>
+      <translation lang="fr">Surlignements</translation>
+      <translation lang="tr">Önemli Noktalar</translation>
+      <translation lang="id">Highlight</translation>
+      <translation lang="hin">प्रमुख्ताएं</translation>
+      <translation lang="mal">ഹൈലൈറ്റുകൾ</translation>
+      <translation lang="es">Resaltados</translation>
+      <translation lang="pt">Destaques</translation>
+    </translation-mapping>
+    <translation-mapping id="Annotation_Notes">
+      <translation lang="en">Notes</translation>
+      <translation lang="fr">Notes</translation>
+      <translation lang="es">Notas</translation>
+      <translation lang="tr">Notlar</translation>
+      <translation lang="id">Catatan</translation>
+      <translation lang="hin">टिप्पणियाँ</translation>
+      <translation lang="mal">കുറിപ്പുകള്‍</translation>
+      <translation lang="pt">Notas</translation>
+    </translation-mapping>
+    <translation-mapping id="Annotation_Note_Add">
+      <translation lang="en">Add Note</translation>
+      <translation lang="fr">Ajouter note</translation>
+      <translation lang="tr">Not Ekle</translation>
+      <translation lang="id">Menambahkan catatan</translation>
+      <translation lang="hin">नोट जोड़ें</translation>
+      <translation lang="mal">കുറിപ്പുകള്‍ ചേര്‍ക്കുക</translation>
+      <translation lang="es">Agregar nota</translation>
+      <translation lang="pt">Adicionar Nota</translation>
+    </translation-mapping>
+    <translation-mapping id="Annotation_Note_Edit">
+      <translation lang="en">Edit Note</translation>
+      <translation lang="fr">Modifier note</translation>
+      <translation lang="tr">Notu Düzenle</translation>
+      <translation lang="id">Edit Catatan</translation>
+      <translation lang="hin">नोट सम्पादित करें</translation>
+      <translation lang="mal">കുറിപ്പുകള്‍ തിരുത്തുക</translation>
+      <translation lang="es">Editar nota</translation>
+      <translation lang="pt">Editar Nota</translation>
+    </translation-mapping>
+    <translation-mapping id="Annotation_Menu_View">
+      <translation lang="en">View</translation>
+      <translation lang="fr">Voir</translation>
+      <translation lang="tr">Görünüm</translation>
+      <translation lang="id">Melihat</translation>
+      <translation lang="hin">अवलोकन</translation>
+      <translation lang="mal">കാണുക</translation>
+      <translation lang="es">Ver</translation>
+      <translation lang="pt">Visualizar</translation>
+    </translation-mapping>
+    <translation-mapping id="Annotation_Menu_Delete">
+      <translation lang="en">Delete</translation>
+      <translation lang="fr">Supprimer</translation>
+      <translation lang="tr">Sil</translation>
+      <translation lang="id">Menghapus</translation>
+      <translation lang="hin">डिलीट</translation>
+      <translation lang="mal">നീക്കം ചെയ്യുക</translation>
+      <translation lang="es">Eliminar</translation>
+      <translation lang="pt">Excluir</translation>
+    </translation-mapping>
+    <translation-mapping id="Annotation_Menu_Edit">
+      <translation lang="en">Edit</translation>
+      <translation lang="fr">Modifier</translation>
+      <translation lang="tr">Düzenle</translation>
+      <translation lang="id">Edit</translation>
+      <translation lang="hin">संपादन</translation>
+      <translation lang="mal">തിരുത്തുക</translation>
+      <translation lang="es">Editar</translation>
+      <translation lang="pt">Editar</translation>
+    </translation-mapping>
+    <translation-mapping id="Annotation_Menu_Share">
+      <translation lang="en">Share</translation>
+      <translation lang="fr">Partager</translation>
+      <translation lang="tr">Paylaş</translation>
+      <translation lang="id">Bagikan</translation>
+      <translation lang="hin">अंश</translation>
+      <translation lang="mal">ഷെയര്‍ ചെയ്യുക</translation>
+      <translation lang="es">Compartir</translation>
+      <translation lang="pt">Compartilhar</translation>
+    </translation-mapping>
+    <translation-mapping id="Annotation_Sort_Order_Reference">
+      <translation lang="en">By Reference</translation>
+      <translation lang="fr">Par référence</translation>
+      <translation lang="tr">Referansa göre</translation>
+      <translation lang="id">Oleh referensi</translation>
+      <translation lang="hin">संदर्भ से</translation>
+      <translation lang="mal">റഫറൻസ് പ്രകാരം</translation>
+      <translation lang="es">Por referencia</translation>
+      <translation lang="pt">Por Referência</translation>
+    </translation-mapping>
+    <translation-mapping id="Annotation_Sort_Order_Date">
+      <translation lang="en">By Date</translation>
+      <translation lang="fr">Par date</translation>
+      <translation lang="tr">Tarihe göre</translation>
+      <translation lang="id">Oleh referensi</translation>
+      <translation lang="hin">तिथि के अनुसार</translation>
+      <translation lang="mal">തീയതി പ്രകാരം</translation>
+      <translation lang="es">Por fecha</translation>
+      <translation lang="pt">Por Data</translation>
+    </translation-mapping>
+    <translation-mapping id="Annotation_Sort_Order_Color">
+      <translation lang="en">By Color</translation>
+      <translation lang="fr">Par couleur</translation>
+      <translation lang="tr">Renge göre</translation>
+      <translation lang="id">Oleh Warna</translation>
+      <translation lang="hin">रंग से</translation>
+      <translation lang="mal">നിറം പ്രകാരം</translation>
+      <translation lang="es">Por color</translation>
+      <translation lang="pt">Por Cor</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_OK">
+      <translation lang="en">OK</translation>
+      <translation lang="fr">OK</translation>
+      <translation lang="es">OK</translation>
+      <translation lang="pt">OK</translation>
+      <translation lang="ru">OK</translation>
+      <translation lang="uk">OK</translation>
+      <translation lang="tr">Tamam</translation>
+      <translation lang="zh">行</translation>
+      <translation lang="id">OK</translation>
+      <translation lang="hin">ठीक</translation>
+      <translation lang="mal">ഓക്കേ</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Yes">
+      <translation lang="en">Yes</translation>
+      <translation lang="fr">Oui</translation>
+      <translation lang="es">Si</translation>
+      <translation lang="pt">Sim</translation>
+      <translation lang="ru">Да</translation>
+      <translation lang="uk">Так</translation>
+      <translation lang="tr">Evet</translation>
+      <translation lang="zh">是</translation>
+      <translation lang="id">Ya</translation>
+      <translation lang="hin">हाँ</translation>
+      <translation lang="mal">അതെ</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_No">
+      <translation lang="en">No</translation>
+      <translation lang="fr">Non</translation>
+      <translation lang="es">No</translation>
+      <translation lang="pt">Não</translation>
+      <translation lang="ru">Нет</translation>
+      <translation lang="uk">Ні</translation>
+      <translation lang="tr">Hayır</translation>
+      <translation lang="zh">不是</translation>
+      <translation lang="id">Tidak</translation>
+      <translation lang="hin">नहीं</translation>
+      <translation lang="mal">അല്ല</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Close">
+      <translation lang="en">Close</translation>
+      <translation lang="fr">Fermer</translation>
+      <translation lang="es">Cerrar</translation>
+      <translation lang="pt">Fechar</translation>
+      <translation lang="ru">Закрыть</translation>
+      <translation lang="uk">Закрити</translation>
+      <translation lang="tr">Kapat</translation>
+      <translation lang="id">Tutup</translation>
+      <translation lang="zh">关闭</translation>
+      <translation lang="hin">बंद</translation>
+      <translation lang="mal">അടയ്ക്കുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Cancel">
+      <translation lang="en">Cancel</translation>
+      <translation lang="fr">Annuler</translation>
+      <translation lang="es">Cancelar</translation>
+      <translation lang="pt">Cancelar</translation>
+      <translation lang="ru">Отменить</translation>
+      <translation lang="uk">Скасувати</translation>
+      <translation lang="tr">İptal etmek</translation>
+      <translation lang="id">Batal</translation>
+      <translation lang="zh">取消</translation>
+      <translation lang="hin">निरस्त</translation>
+      <translation lang="mal">ക്യാന്‍സല്‍ ചെയ്യുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Submit">
+      <translation lang="en">Submit</translation>
+      <translation lang="fr">Soumettre</translation>
+      <translation lang="tr">Gönder</translation>
+      <translation lang="id">Kirim</translation>
+      <translation lang="hin">प्रस्तुत</translation>
+      <translation lang="mal">സമർപ്പിക്കുക</translation>
+      <translation lang="es">Enviar</translation>
+      <translation lang="pt">Enviar</translation>
+    </translation-mapping>
+    <translation-mapping id="Date_Today">
+      <translation lang="en">Today</translation>
+      <translation lang="fr">Aujourd&apos;hui</translation>
+      <translation lang="es">Hoy</translation>
+      <translation lang="pt">Hoje</translation>
+    </translation-mapping>
+    <translation-mapping id="Date_Yesterday">
+      <translation lang="en">Yesterday</translation>
+      <translation lang="fr">Hier</translation>
+      <translation lang="es">Ayer</translation>
+      <translation lang="pt">Ontem</translation>
+    </translation-mapping>
+    <translation-mapping id="Grandroid_Load_Fail">
+      <translation lang="en">Sorry, the text may not display correctly on this device.</translation>
+      <translation lang="fr">Désolé, le texte peut ne pas s&apos;afficher correctement sur cet appareil.</translation>
+      <translation lang="es">Lo siento, el texto no puede ser mostrado correctamente en este dispositivo.</translation>
+      <translation lang="pt">Sinto muito, mas o texto talvéz não exiba corretamente neste dispositivo.</translation>
+      <translation lang="ru">Извините, на этом устройстве текст может отображаться некорректно</translation>
+      <translation lang="uk">Вибачте, текст може відображатися некоректно на цьому пристрої</translation>
+      <translation lang="tr">Üzgünüz, metin bu cihazda doğru şekilde görüntülenmeyebilir.</translation>
+      <translation lang="zh">文本无法在此设备上正确地显示。</translation>
+      <translation lang="id">Maaf, mungkin teks tidak akan ditampilkan dengan benar pada alat ini.</translation>
+      <translation lang="hin">क्षमा करें, यह इस साधन पर सही तरीके से प्रदर्शित नहीं होगा।</translation>
+      <translation lang="mal">ക്ഷമിക്കണം, അക്ഷരങ്ങള്‍ ഈ ഉപകരണത്തിൽ ശരിയായി ദൃശ്യമാകില്ലായിരിക്കാം.</translation>
+    </translation-mapping>
+    <translation-mapping id="Grandroid_Load_Fail_42_43_Intel">
+      <translation lang="en">Sorry, the text may not display correctly on Intel devices for Android 4.2 or 4.3.</translation>
+      <translation lang="fr">Désolé, le texte peut ne pas s&apos;afficher correctement sur les appareils Intel pour Android 4.2 ou 4.3.</translation>
+      <translation lang="es">Lo siento, el texto no puede ser mostrado correctamente en dispositivos Intel para Android 4.2 o 4.3.</translation>
+      <translation lang="pt">Sinto muito, mas o texto talvéz não exiba corretamente em dispositivos Intel com Android 4.2 ou 4.3.</translation>
+      <translation lang="ru">Извините, на устройствах на базе Intel + Android 4.2 или 4.3 текст может отображаться некорректно</translation>
+      <translation lang="uk">Вибачте, текст може відображатися некоректно на пристроях Intel під керуванням Android 4.2 або 4.3</translation>
+      <translation lang="tr">Üzgünüz, metin Android 4.2 veya 4.3 için Intel cihazlarda doğru görüntülenmeyebilir.</translation>
+      <translation lang="zh">文本无法为安卓4.2或4.3的英特尔设备上正确地显示。</translation>
+      <translation lang="id">Maaf, mungkin teks tidak akan ditampilkan dengan benar pada alat dengan CPU Intel dan Android 4.2/4.3.</translation>
+      <translation lang="hin">क्षमा करें, यह इस एंड्राइड 4.2 या 4.3 के लिए इंटेल के साधन पर ठीक से प्रदर्शित नहीं हो सकता है</translation>
+      <translation lang="mal">ക്ഷമിക്കണം, Android 4.2 അല്ലെങ്കിൽ 4.3 ഉള്ള ഇന്റൽ ഉപകരണങ്ങളിൽ അക്ഷരങ്ങള്‍ ശരിയായ രീതിയിൽ ദൃശ്യമാകില്ലായിരിക്കാം.</translation>
+    </translation-mapping>
+    <translation-mapping id="Grandroid_Load_Fail_42_43_Other">
+      <translation lang="en">Sorry, the text may not display correctly on this device for Android 4.2 or 4.3.</translation>
+      <translation lang="fr">Désolé, le texte peut ne pas s&apos;afficher correctement sur cet appareil pour Android 4.2 ou 4.3.</translation>
+      <translation lang="es">Lo siento, el texto no puede ser mostrado correctamente en dispositivos Intel para Android 4.2 o 4.3.</translation>
+      <translation lang="pt">Sinto muito, mas o texto talvéz não exiba corretamente neste dispositivo com Android 4.2 ou 4.3.</translation>
+      <translation lang="ru">Извините, текст может отображаться некорректно, если данное устройство работает под управлением ОС Android 4.2 или 4.3.</translation>
+      <translation lang="uk">Вибачте, текст може відображатися некоректно, якщо цей пристрій працює під керуванням ОС Android 4.2 або 4.3.</translation>
+      <translation lang="tr">Üzgünüz, metin bu cihazda Android 4.2 veya 4.3 için doğru şekilde görüntülenmeyebilir.</translation>
+      <translation lang="zh">文本无法为安卓4.2或4.3的设备上正确地显示。</translation>
+      <translation lang="id">Maaf, mungkin teks tidak akan ditampilkan dengan benar pada alat Android 4.2/4.3 ini.</translation>
+      <translation lang="hin">क्षमा करें, इस साधन  पर एंड्रॉइड 4.2 या 4.3 के लिए ठीक से प्रदर्शित नहीं होगा।</translation>
+      <translation lang="mal">ക്ഷമിക്കണം, Android 4.2 അല്ലെങ്കിൽ 4.3 ഉള്ള ഉപകരണങ്ങളിൽ അക്ഷരങ്ങള്‍ ശരിയായ രീതിയിൽ ദൃശ്യമാകില്ലായിരിക്കാം.</translation>
+    </translation-mapping>
+    <translation-mapping id="Search">
+      <translation lang="en">Search</translation>
+      <translation lang="fr">Recherche</translation>
+      <translation lang="es">Búsqueda</translation>
+      <translation lang="pt">Pesquisar</translation>
+      <translation lang="ru">Поиск</translation>
+      <translation lang="uk">Пошук</translation>
+      <translation lang="tr">Ara</translation>
+      <translation lang="id">Pencarian</translation>
+      <translation lang="zh">搜索</translation>
+      <translation lang="hin">खोज</translation>
+      <translation lang="mal">തിരയുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_Text_Hint">
+      <translation lang="en">Search</translation>
+      <translation lang="fr">Recherche</translation>
+      <translation lang="es">Búsqueda</translation>
+      <translation lang="pt">Pesquisar</translation>
+      <translation lang="ru">найти...</translation>
+      <translation lang="uk">знайти...</translation>
+      <translation lang="tr">Ara</translation>
+      <translation lang="id">Pencarian</translation>
+      <translation lang="zh">搜索</translation>
+      <translation lang="hin">खोज</translation>
+      <translation lang="mal">മലയാളത്തില്‍ ടൈപ്പ് ചെയ്യുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_Match_Whole_Words">
+      <translation lang="en">Match whole words</translation>
+      <translation lang="fr">Mots entiers</translation>
+      <translation lang="es">Palabras completas</translation>
+      <translation lang="pt">Apenas Palavras Inteiras</translation>
+      <translation lang="ru">Слова целиком</translation>
+      <translation lang="uk">Цілі слова</translation>
+      <translation lang="tr">Sözcukleri eşleştir</translation>
+      <translation lang="id">Mencari kata lengkap</translation>
+      <translation lang="zh">全字匹配</translation>
+      <translation lang="hin">पूरे शब्दों से मिलान करें</translation>
+      <translation lang="mal">മുഴുവൻ വാക്കുകള്‍ പൊരുത്തപ്പെടുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_Match_Accents">
+      <translation lang="en">Match accents and tones</translation>
+      <translation lang="fr">Accents et tons</translation>
+      <translation lang="es">Acentos y tonos</translation>
+      <translation lang="pt">Diferenciar acentos e tons</translation>
+      <translation lang="ru">С учётом ударений и тонов</translation>
+      <translation lang="uk">З урахуванням знаків наголосу й тонів</translation>
+      <translation lang="tr">Vurguları ve tonları eşleştir</translation>
+      <translation lang="id">Aksen dan bunyi harus sesuai</translation>
+      <translation lang="zh">比赛的口音和色调</translation>
+      <translation lang="hin">भाषा और सुर को मिलाये</translation>
+      <translation lang="mal">ഉച്ചാരണവും, ശബ്‌ദവും പൊരുത്തപ്പെടുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_Searching">
+      <translation lang="en">Searching...</translation>
+      <translation lang="fr">Recherche en cours...</translation>
+      <translation lang="es">Buscando...</translation>
+      <translation lang="pt">Pesquisando...</translation>
+      <translation lang="ru">Идёт поиск...</translation>
+      <translation lang="uk">Пошук триває...</translation>
+      <translation lang="tr">Aranıyor...</translation>
+      <translation lang="id">Mencari...</translation>
+      <translation lang="zh">正在搜索…</translation>
+      <translation lang="hin">खोज</translation>
+      <translation lang="mal">തിരയുന്നു...</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_Number_Found">
+      <translation lang="en">Found: %,d</translation>
+      <translation lang="fr">Nombre : %,d</translation>
+      <translation lang="es">Encontrados: %,d</translation>
+      <translation lang="pt">Encontrado: %,d</translation>
+      <translation lang="ru">Найдено: %,d</translation>
+      <translation lang="uk">Знайдено: %,d</translation>
+      <translation lang="tr">Bulundu: %,d</translation>
+      <translation lang="id">Ditemukan: %,d</translation>
+      <translation lang="zh">找到</translation>
+      <translation lang="hin">मिला:%, डी</translation>
+      <translation lang="mal">%,d ഇടങ്ങളില്‍ കണ്ടെത്തി</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_No_Matches_Found">
+      <translation lang="en">No matches found</translation>
+      <translation lang="fr">Aucun résultat trouvé</translation>
+      <translation lang="es">No se encontró ninguna coincidencia</translation>
+      <translation lang="pt">Nenhum resultado encontrado</translation>
+      <translation lang="ru">Ничего не найдено</translation>
+      <translation lang="uk">Немає відповідників</translation>
+      <translation lang="tr">Hiçbir sonuç bulunamadı</translation>
+      <translation lang="id">Tidak ditemukan</translation>
+      <translation lang="zh">没有找到匹配</translation>
+      <translation lang="hin">कोई मेल नहीं मिले</translation>
+      <translation lang="mal">ഒന്നും കണ്ടെത്താന്‍ പറ്റിയില്ല</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_Again_Button">
+      <translation lang="en">Search</translation>
+      <translation lang="fr">Recherche</translation>
+      <translation lang="es">Búsqueda</translation>
+      <translation lang="pt">Pesquisar</translation>
+      <translation lang="ru">Искать</translation>
+      <translation lang="uk">Шукати</translation>
+      <translation lang="tr">Ara</translation>
+      <translation lang="id">Cari</translation>
+      <translation lang="zh">搜索</translation>
+      <translation lang="hin">खोज</translation>
+      <translation lang="mal">വീണ്ടും തിരയുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Search_Cancel_Button">
+      <translation lang="en">Cancel</translation>
+      <translation lang="fr">Annuler</translation>
+      <translation lang="es">Cancelar</translation>
+      <translation lang="pt">Cancelar</translation>
+      <translation lang="ru">Отменить</translation>
+      <translation lang="uk">Скасувати</translation>
+      <translation lang="tr">İptal etmek</translation>
+      <translation lang="id">Batal</translation>
+      <translation lang="zh">取消</translation>
+      <translation lang="hin">निरस्त करना</translation>
+      <translation lang="mal">ക്യാന്‍സല്‍ ചെയ്യുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Download_Title">
+      <translation lang="en">Audio Download</translation>
+      <translation lang="fr">Téléchargement audio</translation>
+      <translation lang="es">Descarga de audio</translation>
+      <translation lang="pt">Download de Áudio</translation>
+      <translation lang="ru">Загрузка аудио</translation>
+      <translation lang="uk">Завантаження аудіо</translation>
+      <translation lang="tr">Ses İndir</translation>
+      <translation lang="zh">音频下载</translation>
+      <translation lang="id">Unduh audio</translation>
+      <translation lang="hin">ऑडियो डाउनलोड</translation>
+      <translation lang="mal">ഓഡിയോ ഡൌണ്‍ലോഡ്</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Download_Confirm">
+      <translation lang="en">Download audio file?</translation>
+      <translation lang="fr">Télécharger fichier audio?</translation>
+      <translation lang="es">¿Descargar archivo de audio?</translation>
+      <translation lang="pt">Baixar arquivo de áudio?</translation>
+      <translation lang="ru">Загрузить аудио файл?</translation>
+      <translation lang="uk">Завантажити аудіо файл?</translation>
+      <translation lang="tr">Ses dosyasını indirmek istiyor musun?</translation>
+      <translation lang="zh">下载音频文件吗？</translation>
+      <translation lang="id">Anda mau unduh file audio?</translation>
+      <translation lang="hin">ऑडियो पंक्ति डाउनलोड</translation>
+      <translation lang="mal">ഓഡിയോ ഫയൽ ഡൗൺലോഡു ചെയ്യണോ?</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Download_Auto">
+      <translation lang="en">Download automatically from now on</translation>
+      <translation lang="fr">Télécharger automatiquement à partir de maintenant</translation>
+      <translation lang="es">Siempre descargar audio automáticamente</translation>
+      <translation lang="pt">Baixar automaticamente daqui para a frente</translation>
+      <translation lang="ru">В дальнейшем загружать автоматически</translation>
+      <translation lang="uk">Надалі завантажувати автоматично</translation>
+      <translation lang="tr">Bundan sonra otomatik olarak indir</translation>
+      <translation lang="zh">后来自动下载</translation>
+      <translation lang="id">Selalu unduh secara otomatis</translation>
+      <translation lang="hin">स्वचालित रूप से अब से डाउनलोड करें</translation>
+      <translation lang="mal">ഇനി മുതല്‍ ചോദിക്കാതെ ഡൌണ്‍ലോഡ് ചെയ്യുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Download_Connect">
+      <translation lang="en">To download audio files, please connect to the internet.</translation>
+      <translation lang="fr">Pour télécharger les fichiers audio, veuillez vous connecter à l&apos;internet</translation>
+      <translation lang="es">Para descargar archivos de audio, favor  conectarse a internet</translation>
+      <translation lang="pt">Para baixar arquivos de áudio, favor conectar à Internet.</translation>
+      <translation lang="ru">Для загрузки аудио файлов, пожалуйста, подключитесь к интернету</translation>
+      <translation lang="uk">Щоб завантажити аудіо файли, будь ласка, під&apos;єднайтеся до інтернету</translation>
+      <translation lang="tr">Ses dosyalarını indirmek için, lütfen internete bağlanın.</translation>
+      <translation lang="zh">下载的音频文件，请连接到互联网。</translation>
+      <translation lang="id">Untuk mengunduh audio, harus konek ke internet</translation>
+      <translation lang="hin">ऑडियो फ़ाइलों को डाउनलोड करने के लिए, कृपया इंटरनेट से कनेक्ट करें</translation>
+      <translation lang="mal">ഓഡിയോ ഡൌണ്‍ലോഡ് ചെയ്യാന്‍ ഇന്റര്‍നെറ്റ്‌ ആവശ്യമാണ്‌</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Download_Error">
+      <translation lang="en">Download Error:</translation>
+      <translation lang="fr">Erreur de téléchargement :</translation>
+      <translation lang="es">Error de descarga:</translation>
+      <translation lang="pt">Erro no Download</translation>
+      <translation lang="ru">Ошибка загрузки</translation>
+      <translation lang="uk">Помилка завантаження</translation>
+      <translation lang="tr">İndirme hatası:</translation>
+      <translation lang="zh">下载错误：</translation>
+      <translation lang="id">Error mengunduh:</translation>
+      <translation lang="hin">डाउनलोड त्रुटि</translation>
+      <translation lang="mal">ഡൌണ്‍ലോഡ് ശരിയായില്ല:</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Downloading">
+      <translation lang="en">Downloading %book %chapter...</translation>
+      <translation lang="fr">Téléchargement de %book %chapter...</translation>
+      <translation lang="es">Descargando %book %chapter...</translation>
+      <translation lang="pt">Baixando %book %chapter...</translation>
+      <translation lang="ru">Загружается %book %chapter...</translation>
+      <translation lang="uk">Завантажується %book %chapter...</translation>
+      <translation lang="tr">%book %chapter indiriliyor...</translation>
+      <translation lang="zh">正在下载 %book %chapter...</translation>
+      <translation lang="id">Sedang mengunduh %book %chapter...</translation>
+      <translation lang="hin">%book %chapter डाउनलोड कर रहा है ..</translation>
+      <translation lang="mal">%book %chapter ഡൌണ്‍ലോഡ് ചെയ്തു കൊണ്ടിരിക്കുന്നു...</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Check_Connection">
+      <translation lang="en">Please check your internet connection.</translation>
+      <translation lang="fr">Veuillez vérifier votre connexion internet</translation>
+      <translation lang="es">Por favor revise su conexión a Internet</translation>
+      <translation lang="pt">Favor verificar a sua conexão à Internet.</translation>
+      <translation lang="ru">Пожалуйста, проверьте интернет-соединение</translation>
+      <translation lang="uk">Будь ласка, перевірте інтернет з&apos;єднання</translation>
+      <translation lang="tr">Lütfen internet bağlantınızı kontrol edin.</translation>
+      <translation lang="zh">请检查您的网络连接。</translation>
+      <translation lang="id">Harap memeriksa koneksi internet.</translation>
+      <translation lang="hin">कृपया अपने इंटरनेट कनेक्शन की जाँच करें।</translation>
+      <translation lang="mal">ദയവായി നിങ്ങളുടെ ഇന്റര്‍നെറ്റ്‌  കണക്ഷന്‍ ചെക്ക്‌ ചെയ്യുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_File_Not_Found">
+      <translation lang="en">Audio file not found</translation>
+      <translation lang="fr">Fichier audio introuvable</translation>
+      <translation lang="es">Archivo no encontrado</translation>
+      <translation lang="pt">Arquivo de áudio não encontrado</translation>
+      <translation lang="ru">Аудио файл не найден</translation>
+      <translation lang="uk">Аудіо файл не знайдено</translation>
+      <translation lang="tr">Ses dosyası bulunamadı</translation>
+      <translation lang="zh">找不到音频文件</translation>
+      <translation lang="id">Audio tidak ditemukan</translation>
+      <translation lang="hin">ऑडियो फ़ाइल नहीं मिली</translation>
+      <translation lang="mal">ഓഡിയോ ഫയല്‍ കണ്ടെത്തിയില്ല</translation>
+    </translation-mapping>
+    <translation-mapping id="Audio_Fail_DBT_Location">
+      <translation lang="en">Failed to get audio download information</translation>
+      <translation lang="fr">Informations de téléchargement introuvables</translation>
+      <translation lang="es">No se encontró información sobre la descarga</translation>
+      <translation lang="pt">Não consequiu obter informações do download de áudio</translation>
+      <translation lang="ru">Не удалось найти информацию для загрузки аудио</translation>
+      <translation lang="uk">Не вдалося отримати інформацію для завантаження аудіо</translation>
+      <translation lang="tr">Sesli indirme bilgisi alınamadı.</translation>
+      <translation lang="zh">未能获得音频下载信息</translation>
+      <translation lang="id">Tidak bisa memperoleh info tentang audio</translation>
+      <translation lang="hin">ऑडियो डाउनलोड जानकारी प्राप्त करने में विफल</translation>
+      <translation lang="mal">ഓഡിയോ ഡൗൺലോഡ് വിവരം നേടുന്നതിൽ പരാജയപ്പെട്ടു</translation>
+    </translation-mapping>
+    <translation-mapping id="Selector_Chapter">
+      <translation lang="en">CHAPTER</translation>
+      <translation lang="fr">CHAPITRE</translation>
+      <translation lang="es">CAPÍTULO</translation>
+      <translation lang="tr">BÖLÜM</translation>
+      <translation lang="id">PASAL</translation>
+      <translation lang="hin">अध्याय</translation>
+      <translation lang="mal">അധ്യായം</translation>
+      <translation lang="pt">CAPÍTULO</translation>
+    </translation-mapping>
+    <translation-mapping id="Selector_Verse">
+      <translation lang="en">VERSE</translation>
+      <translation lang="fr">VERSET</translation>
+      <translation lang="es">VERSÍCULO</translation>
+      <translation lang="tr">AYET</translation>
+      <translation lang="id">AYAT</translation>
+      <translation lang="hin">आयत</translation>
+      <translation lang="mal">വാക്യം</translation>
+      <translation lang="pt">VERSÍCULO</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_Apk_File">
+      <translation lang="en">Share App Installer File</translation>
+      <translation lang="fr">Partager fichier d&apos;installation de l&apos;appli</translation>
+      <translation lang="es">Compartir archivo del instalador de aplicacion</translation>
+      <translation lang="pt">Compartilhar Arquivo de Instalação do Aplicativo</translation>
+      <translation lang="tr">Uygulama Yükleyici Dosyasını Paylaş</translation>
+      <translation lang="id">Bagikan file aplikasi (APK)</translation>
+      <translation lang="hin">स्थापनाकर्ता पंक्ति के ऐप को साझा करे</translation>
+      <translation lang="mal">ആപ്പ് ഇൻസ്റ്റാളർ ഫയൽ ഷെയര്‍ ചെയ്യുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_Apk_File_Via">
+      <translation lang="en">Share App via</translation>
+      <translation lang="fr">Partager application par</translation>
+      <translation lang="tr">Üzerinden uygulama paylaşın</translation>
+      <translation lang="id">Bagi app ini lewat link</translation>
+      <translation lang="hin">एप्लिकेशन के माध्यम से साझा करें</translation>
+      <translation lang="mal">എ.പി.കെ ഫയൽ ഷെയര്‍ ചെയ്യുക</translation>
+      <translation lang="es">Compartir App via</translation>
+      <translation lang="pt">Compartilhar Aplicativo via</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_App_Link">
+      <translation lang="en">Share Link to App on Google Play</translation>
+      <translation lang="fr">Partager lien à l&apos;appli sur Google Play</translation>
+      <translation lang="es">Compartir enlace de la aplicación en Google Play</translation>
+      <translation lang="pt">Compartilhar hiperlink ao Aplicativo no Google Play</translation>
+      <translation lang="tr">Google Play&apos;de Uygulamaya Bağlantı Paylaşın</translation>
+      <translation lang="id">Membagi link ke app ini di Google Play Store</translation>
+      <translation lang="hin">गूगल प्ले के ऐप के  लिंक को साझा करें</translation>
+      <translation lang="mal">ഗൂഗിൾ പ്ലേയിലെ ആപ്പ് ലിങ്ക് ഷെയര്‍ ചെയ്യുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_App_Link_Recommend">
+      <translation lang="en">I can recommend this app:</translation>
+      <translation lang="fr">Je peux recommander cette application :</translation>
+      <translation lang="tr">Bu uygulamayı tavsiye edebilirim:</translation>
+      <translation lang="id">Saya merekomendasikan app ini:</translation>
+      <translation lang="hin">मै इस ऐप की अनुशंसा करता हूँ</translation>
+      <translation lang="mal">എനിക്ക് ഈ ആപ്പ് ശുപാർശ ചെയ്യാൻ കഴിയും</translation>
+      <translation lang="es">Recomiendo esta app:</translation>
+      <translation lang="pt">Eu posso recomendar este aplicativo:</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_App_Link_Via">
+      <translation lang="en">Share Link via</translation>
+      <translation lang="fr">Partager lien par</translation>
+      <translation lang="tr">Üzerinden uygulama paylaşın</translation>
+      <translation lang="id">Membagi link lewat</translation>
+      <translation lang="hin">लिंक के माध्यम से साझा करें</translation>
+      <translation lang="mal">ലിങ്ക് ഷെയര്‍ ചെയ്യുക</translation>
+      <translation lang="es">Compartir enlace via</translation>
+      <translation lang="pt">Compartilhar Hiperlink via</translation>
+    </translation-mapping>
+    <translation-mapping id="Share_Via">
+      <translation lang="en">Share via</translation>
+      <translation lang="fr">Partager par</translation>
+      <translation lang="tr">Üzerinden paylaş</translation>
+      <translation lang="id">Berbagi oleh</translation>
+      <translation lang="hin">के माध्यम से बाँटे</translation>
+      <translation lang="mal">ഷെയര്‍ ചെയ്യുക</translation>
+      <translation lang="es">Compartir via</translation>
+      <translation lang="pt">Compartilhar via</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Title">
+      <translation lang="en">Settings</translation>
+      <translation lang="fr">Paramètres</translation>
+      <translation lang="es">Configuración</translation>
+      <translation lang="pt">Configurações</translation>
+      <translation lang="tr">Ayarlar</translation>
+      <translation lang="id">Pengaturan</translation>
+      <translation lang="hin">अस्त</translation>
+      <translation lang="mal">ക്രമീകരണങ്ങൾ</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Category_Text_Display">
+      <translation lang="en">Text Display</translation>
+      <translation lang="fr">Affichage du texte</translation>
+      <translation lang="tr">Metin görüntüleme</translation>
+      <translation lang="id">Tampilan Teks</translation>
+      <translation lang="hin">पाठ का प्रकाशन</translation>
+      <translation lang="mal">ടെക്സ്റ്റ് ഡിസ്പ്ലേ</translation>
+      <translation lang="es">Pantalla de texto</translation>
+      <translation lang="pt">Exibição do Texto</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Category_Navigation">
+      <translation lang="en">Navigation</translation>
+      <translation lang="fr">Navigation</translation>
+      <translation lang="es">Navegación</translation>
+      <translation lang="tr">Navigasyon</translation>
+      <translation lang="id">Navigasi</translation>
+      <translation lang="hin">नेविगेशन</translation>
+      <translation lang="mal">നാവിഗേഷൻ</translation>
+      <translation lang="pt">Navegação</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Category_Audio">
+      <translation lang="en">Audio</translation>
+      <translation lang="fr">Audio</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Category_Interface">
+      <translation lang="en">User Interface</translation>
+      <translation lang="fr">Interface utilisateur</translation>
+      <translation lang="es">Interfaz de usuario</translation>
+      <translation lang="tr">Kullanıcı arayüzü</translation>
+      <translation lang="id">Antarmuka pengguna</translation>
+      <translation lang="hin">उपयोक्ता इंटरफेस</translation>
+      <translation lang="mal">യൂസര്‍ ഇന്റർഫേസ്</translation>
+      <translation lang="pt">Interface do Usuário</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Book_Selection">
+      <translation lang="en">Book selection</translation>
+      <translation lang="fr">Sélection de livres</translation>
+      <translation lang="es">Selección de libro</translation>
+      <translation lang="pt">Seleção de Livro</translation>
+      <translation lang="tr">Kitap Seçimi</translation>
+      <translation lang="id">Susunan Pemilihan Kitab</translation>
+      <translation lang="hin">पुस्तक चयन</translation>
+      <translation lang="mal">പുസ്തകം തിരഞ്ഞെടുക്കൽ</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Book_Selection_List">
+      <translation lang="en">List of book names</translation>
+      <translation lang="fr">Liste de noms de livres</translation>
+      <translation lang="es">Lista de nombres de libros</translation>
+      <translation lang="pt">Lista de Nomes dos Livros</translation>
+      <translation lang="tr">Kitap isimleri listesi</translation>
+      <translation lang="id">Daftar nama-nama kitab</translation>
+      <translation lang="hin">पुस्तक नामों की सूची</translation>
+      <translation lang="mal">പുസ്തക പേരുകളുടെ ലിസ്റ്റ്</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Book_Selection_Grid">
+      <translation lang="en">Grid of book abbreviations</translation>
+      <translation lang="fr">Grille d&apos;abréviations de livres</translation>
+      <translation lang="es">Menú de abreviaturas de libros</translation>
+      <translation lang="pt">Quadra de abreviaturas de livros</translation>
+      <translation lang="tr">Kitap kısaltmalarının kılavuzu</translation>
+      <translation lang="id">Singkatan nama kitab</translation>
+      <translation lang="hin">पुस्तक संक्षिप्त की ग्रिड</translation>
+      <translation lang="mal">പുസ്തകം ചുരുക്കെഴുത്തുകളുടെ ഗ്രിഡ്</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Red_Letters">
+      <translation lang="en">Red letters</translation>
+      <translation lang="fr">Paroles de Jésus en rouge</translation>
+      <translation lang="es">Letras rojas</translation>
+      <translation lang="pt">Letras Vermelhas</translation>
+      <translation lang="tr">Kırmızı Harfler</translation>
+      <translation lang="id">Huruf-huruf Merah</translation>
+      <translation lang="hin">लाल अक्षर</translation>
+      <translation lang="mal">ചുവന്ന അക്ഷരങ്ങൾ</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Red_Letters_Summary">
+      <translation lang="en">Show the words of Jesus in red</translation>
+      <translation lang="fr">Afficher les paroles de Jésus en rouge</translation>
+      <translation lang="es">Mostrar las palabras de Jesus en rojo</translation>
+      <translation lang="pt">Exibir as palavras de Jesus em vermelho</translation>
+      <translation lang="tr">İsa&apos;nın sözlerini kırmızıya göster</translation>
+      <translation lang="id">Tampilkan kata-kata Yesus dengan huruf merah</translation>
+      <translation lang="hin">यीशु के शब्दों को लाल रंग में दिखाओ</translation>
+      <translation lang="mal">യേശുവിന്റെ വാക്കുകള്‍ ചുവന്ന അക്ഷരങ്ങളില്‍ കാണിക്കുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Show_Border">
+      <translation lang="en">Show border</translation>
+      <translation lang="fr">Bordure autour du texte</translation>
+      <translation lang="tr">Kenarlığı Göster</translation>
+      <translation lang="id">Tampilkan perbatasan</translation>
+      <translation lang="hin">सीमा दिखाना</translation>
+      <translation lang="mal">ബോർഡർ കാണിക്കുക</translation>
+      <translation lang="es">Mostrar borde</translation>
+      <translation lang="pt">Exibir Bordas</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Show_Border_Summary">
+      <translation lang="en">Show decorative border around text</translation>
+      <translation lang="fr">Afficher une bordure decorative autour du texte</translation>
+      <translation lang="tr">Dekoratif metin kenarlığı göster</translation>
+      <translation lang="id">Tunjukkan batas dekoratif di sekitar teks</translation>
+      <translation lang="hin">पाठ के आसपास सजावटी सीमा दिखाएं</translation>
+      <translation lang="mal">വാചകത്തിനു ചുറ്റും അലങ്കാര ബോർഡർ കാണിക്കുക</translation>
+      <translation lang="es">Mostrar borde decorativo alrededor del texto</translation>
+      <translation lang="pt">Exibir bordas decorativas ao redor do texto</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Verse_Numbers">
+      <translation lang="en">Show verse numbers</translation>
+      <translation lang="fr">Afficher numéros de versets</translation>
+      <translation lang="es">Mostrar números de versículos</translation>
+      <translation lang="pt">Exibir Números de Versículo</translation>
+      <translation lang="tr">Ayet Numaralarını Göster</translation>
+      <translation lang="id">Tampilkan Nomor Ayat</translation>
+      <translation lang="hin">आयत गिनतियों को दिखाना</translation>
+      <translation lang="mal">വാക്യ നമ്പറുകള്‍ കാണിക്കുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Verse_Layout">
+      <translation lang="en">Verse layout</translation>
+      <translation lang="fr">Mise en page des versets</translation>
+      <translation lang="es">Diseño de versículos</translation>
+      <translation lang="pt">Layout de versículos</translation>
+      <translation lang="tr">Verse Düzeni</translation>
+      <translation lang="id">Penataan Ayat</translation>
+      <translation lang="hin">आयत अभिन्यास</translation>
+      <translation lang="mal">വാക്യ ലേഔട്ട്</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Verse_Layout_Paragraphs">
+      <translation lang="en">Verses in paragraphs</translation>
+      <translation lang="fr">Versets en paragraphes</translation>
+      <translation lang="es">Versículos en párrafos</translation>
+      <translation lang="pt">Versículos em parágrafos</translation>
+      <translation lang="tr">Paragrafların içindeki ayetler</translation>
+      <translation lang="id">Digabung menjadi paragraf</translation>
+      <translation lang="hin">पैराग्राफ में आयत</translation>
+      <translation lang="mal">ഖണ്ഡികകളിൽ വാക്യങ്ങൾ</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Verse_Layout_One_Per_Line">
+      <translation lang="en">One verse per line</translation>
+      <translation lang="fr">Un verset par ligne</translation>
+      <translation lang="es">Un versículo por linea</translation>
+      <translation lang="pt">Um versículo por linha</translation>
+      <translation lang="tr">Hat başına bir ayet</translation>
+      <translation lang="id">Terpisah</translation>
+      <translation lang="hin">प्रति पंक्ति एक कविता</translation>
+      <translation lang="mal">ഒരു വരിയിൽ ഒരു വാക്യം</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Verse_Selection">
+      <translation lang="en">Show verse selector</translation>
+      <translation lang="fr">Montrer sélecteur de versets</translation>
+      <translation lang="tr">Ayet Seçicisini Göster</translation>
+      <translation lang="id">Tampilkan Pemilih Ayat</translation>
+      <translation lang="hin">श्वेयर चयनकर्ता दिखाएं</translation>
+      <translation lang="mal">വാക്യ സെലക്ടർ കാണിക്കുക</translation>
+      <translation lang="es">Mostrar selector de versículo</translation>
+      <translation lang="pt">Exibir Seletor de Versículo</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Interface_Language">
+      <translation lang="en">Language</translation>
+      <translation lang="fr">Langue</translation>
+      <translation lang="es">Idioma</translation>
+      <translation lang="pt">Idioma da Interface</translation>
+      <translation lang="tr">Arayüz Dili</translation>
+      <translation lang="id">Bahasa antarmuka</translation>
+      <translation lang="hin">भाषा</translation>
+      <translation lang="mal">ഭാഷ</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Layout_Direction">
+      <translation lang="en">Layout direction</translation>
+      <translation lang="fr">Direction de mise en page</translation>
+      <translation lang="tr">Yerleşim yönü</translation>
+      <translation lang="id">Arah tata letak</translation>
+      <translation lang="hin">लेआउट दिशा</translation>
+      <translation lang="mal">ലേഔട്ട് ദിശ</translation>
+      <translation lang="es">Dirección del diseño</translation>
+      <translation lang="pt">Direção do Layout</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Layout_Direction_LTR">
+      <translation lang="en">Left to Right</translation>
+      <translation lang="fr">De gauche à droite</translation>
+      <translation lang="es">De izquierda a derecha</translation>
+      <translation lang="tr">Soldan sağa</translation>
+      <translation lang="id">Kiri ke kanan</translation>
+      <translation lang="hin">बाएं से दाएं</translation>
+      <translation lang="mal">ഇടത് നിന്ന് വലത്തേക്ക്</translation>
+      <translation lang="pt">Esquerda para Direita</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Layout_Direction_RTL">
+      <translation lang="en">Right to Left</translation>
+      <translation lang="fr">De droite à gauche</translation>
+      <translation lang="es">De derecha a izquierda</translation>
+      <translation lang="tr">Sağdan sola</translation>
+      <translation lang="id">Kanan ke kiri</translation>
+      <translation lang="hin">दाएं से बाएं</translation>
+      <translation lang="mal">വലത് നിന്ന് ഇടത്തേക്ക്</translation>
+      <translation lang="pt">Direita para Esquerda</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Layout_Direction_Interface_Language">
+      <translation lang="en">Direction of interface language</translation>
+      <translation lang="fr">Direction de la langue de l&apos;interface</translation>
+      <translation lang="tr">Arayüz dilinin yönü</translation>
+      <translation lang="id">Arah bahasa antarmuka</translation>
+      <translation lang="hin">अंतराफलक भाषा की दिशा</translation>
+      <translation lang="mal">ഇന്റർഫേസ് ഭാഷയുടെ ദിശ</translation>
+      <translation lang="es">Dirección del idioma de la interfaz</translation>
+      <translation lang="pt">Direção do idioma da interfaze</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Layout_Direction_Text">
+      <translation lang="en">Direction of current text</translation>
+      <translation lang="fr">Direction du texte actuel</translation>
+      <translation lang="tr">Mevcut metnin yönü</translation>
+      <translation lang="id">Arah teks saat ini</translation>
+      <translation lang="hin">वर्तमान पाठ की दिशा</translation>
+      <translation lang="mal">നിലവിലുള്ള ടെക്സ്റ്റിന്റെ ദിശ</translation>
+      <translation lang="es">Dirección del texto actual</translation>
+      <translation lang="pt">Direção do texto atual</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Highlight_Phrase">
+      <translation lang="en">Highlight synchronized phrases</translation>
+      <translation lang="es">Resaltar las frases sincronizadas</translation>
+      <translation lang="fr">Phrases synchronisées en jaune</translation>
+      <translation lang="pt">Destacar frases sincronizadas</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Highlight_Phrase_Summary">
+      <translation lang="en">Show current phrase in yellow when playing audio</translation>
+      <translation lang="es">Mostrar la frase actual en amarillo al reproducir el audio</translation>
+      <translation lang="fr">Afficher la phrase en cours en jaune lors de la lecture audio</translation>
+      <translation lang="pt">Exibir frase atual em amarelo enquanto tocando áudio</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Speed">
+      <translation lang="en">Playback speed</translation>
+      <translation lang="fr">Vitesse de lecture</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Speed_Normal">
+      <translation lang="en">Normal</translation>
+      <translation lang="fr">Normale</translation>
+      <translation lang="es">Normal</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Download_Mode">
+      <translation lang="en">Audio file download</translation>
+      <translation lang="fr">Téléchargement de fichiers audio</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Download_Prompt">
+      <translation lang="en">Always ask before downloading</translation>
+      <translation lang="fr">Demander avant de télécharger</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Download_Automatic">
+      <translation lang="en">Download automatically</translation>
+      <translation lang="fr">Télécharger automatiquement</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Audio_Download_Automatic_Wifi">
+      <translation lang="en">Download automatically if using WiFi</translation>
+      <translation lang="fr">Télécharger automatiquement si vous êtes sur WiFi</translation>
+    </translation-mapping>
+    <translation-mapping id="Settings_Keep_Screen_On">
+      <translation lang="en">Keep screen on</translation>
+      <translation lang="fr">Gardez l&apos;écran allumé</translation>
+    </translation-mapping>
+    <translation-mapping id="Song_List_By_Number">
+      <translation lang="en">BY NUMBER</translation>
+      <translation lang="fr">PAR NUMÉRO</translation>
+      <translation lang="tr">NUMARA GÖRE</translation>
+      <translation lang="id">Urutan Nomor</translation>
+      <translation lang="hin">संख्या से</translation>
+      <translation lang="mal">സംഖ്യ പ്രകാരം</translation>
+      <translation lang="es">POR NÚMERO</translation>
+      <translation lang="pt">POR NÚMERO</translation>
+    </translation-mapping>
+    <translation-mapping id="Song_List_By_Title">
+      <translation lang="en">BY TITLE</translation>
+      <translation lang="fr">PAR TITRE</translation>
+      <translation lang="tr">BAŞLIKLA GÖRE</translation>
+      <translation lang="id">Urutan Judul</translation>
+      <translation lang="hin">शीर्षक से</translation>
+      <translation lang="mal">ടൈറ്റിൽ പ്രകാരം</translation>
+      <translation lang="es">POR TÍTULO</translation>
+      <translation lang="pt">POR TÍTULO</translation>
+    </translation-mapping>
+    <translation-mapping id="Book_Group_OT">
+      <translation lang="en">Old Testament</translation>
+      <translation lang="fr">Ancien Testament</translation>
+      <translation lang="es">Antiguo Testamento</translation>
+      <translation lang="pt">Antigo Testamento</translation>
+      <translation lang="ru">Ветхий Завет</translation>
+      <translation lang="uk">Старий Заповіт</translation>
+      <translation lang="tr">Eski Ahit</translation>
+      <translation lang="id">Perjanjian Lama</translation>
+      <translation lang="zh">旧约</translation>
+      <translation lang="hin">पुराना नियम</translation>
+      <translation lang="mal">പഴയ നിയമം</translation>
+    </translation-mapping>
+    <translation-mapping id="Book_Group_NT">
+      <translation lang="en">New Testament</translation>
+      <translation lang="fr">Nouveau Testament</translation>
+      <translation lang="es">Nuevo Testamento</translation>
+      <translation lang="pt">Novo Testamento</translation>
+      <translation lang="ru">Новый Завет</translation>
+      <translation lang="uk">Новий Заповіт</translation>
+      <translation lang="tr">Yeni Ahit</translation>
+      <translation lang="id">Perjanjian Baru</translation>
+      <translation lang="zh">新约</translation>
+      <translation lang="hin">नया नियम</translation>
+      <translation lang="mal">പുതിയ നിയമം</translation>
+    </translation-mapping>
+    <translation-mapping id="Book_Group_DC">
+      <translation lang="en">Deuterocanonical</translation>
+      <translation lang="fr">Deutérocanonique</translation>
+      <translation lang="es">Deuterocanónico</translation>
+      <translation lang="pt">Deuterocanônico</translation>
+      <translation lang="ru">Второканонические книги</translation>
+      <translation lang="uk">Второканонічні книги</translation>
+      <translation lang="tr">Deuterocanonical</translation>
+      <translation lang="id">Ulangan</translation>
+      <translation lang="zh">次经</translation>
+      <translation lang="hin">अपोक्रिफा</translation>
+      <translation lang="mal">ഇതര കാനോനിക ഗ്രന്ഥങ്ങള്‍</translation>
+    </translation-mapping>
+    <translation-mapping id="Layout_Single_Pane">
+      <translation lang="en">Single Pane</translation>
+      <translation lang="fr">Volet unique</translation>
+      <translation lang="es">Un solo panel</translation>
+      <translation lang="pt">Painel Único</translation>
+      <translation lang="tr">Tek Bölme</translation>
+      <translation lang="hin">एक शाखा</translation>
+      <translation lang="mal">ഒരു പാളി</translation>
+    </translation-mapping>
+    <translation-mapping id="Layout_Two_Pane">
+      <translation lang="en">Two Pane</translation>
+      <translation lang="fr">Deux volets</translation>
+      <translation lang="es">Dos paneles</translation>
+      <translation lang="pt">Painel Duplo</translation>
+      <translation lang="tr">İki Bölme</translation>
+      <translation lang="hin">दो शाखा</translation>
+      <translation lang="mal">രണ്ട് പാളി</translation>
+    </translation-mapping>
+    <translation-mapping id="Layout_Interlinear">
+      <translation lang="en">Verse by Verse</translation>
+      <translation lang="fr">Verset par verset</translation>
+      <translation lang="es">Versículo por versículo</translation>
+      <translation lang="pt">Versículo por versículo</translation>
+      <translation lang="tr">Ayet ayet</translation>
+      <translation lang="hin">आयत बय आयत</translation>
+      <translation lang="mal">വാക്യം പ്രതി വാക്യം</translation>
+    </translation-mapping>
+    <translation-mapping id="Editor_Insert">
+      <translation lang="en">Insert Marker</translation>
+      <translation lang="fr">Insérer Marqueur</translation>
+      <translation lang="es">Insertar marcador</translation>
+      <translation lang="pt">Inserir Marcador</translation>
+      <translation lang="ru">Вставить маркер</translation>
+      <translation lang="uk">Вставити мітку</translation>
+      <translation lang="id">Masukkan penanda</translation>
+      <translation lang="zh">插入标记</translation>
+      <translation lang="hin">निशान डालें</translation>
+      <translation lang="mal">മാർക്കർ ചേർക്കുക</translation>
+    </translation-mapping>
+    <translation-mapping id="Editor_Insert_Paragraph">
+      <translation lang="en">Paragraph (\\p)</translation>
+      <translation lang="fr">Paragraphe (\\p)</translation>
+      <translation lang="es">Párrafo (\p)</translation>
+      <translation lang="pt">Parágrafo (\p)</translation>
+      <translation lang="ru">Абзац (\p)</translation>
+      <translation lang="uk">Абзац (\p)</translation>
+      <translation lang="id">Paragraf (\p)</translation>
+      <translation lang="zh">段落(\p)</translation>
+      <translation lang="hin">अनुच्छेद (\p)</translation>
+      <translation lang="mal">ഖണ്ഡിക (\p)</translation>
+    </translation-mapping>
+    <translation-mapping id="Editor_Insert_Poetry">
+      <translation lang="en">Poetry (\\q1)</translation>
+      <translation lang="fr">Poesie (\\q1)</translation>
+      <translation lang="es">Poesía (\q1)</translation>
+      <translation lang="pt">Poesia (\q1)</translation>
+      <translation lang="ru">Поэзия (\q1)</translation>
+      <translation lang="uk">Поезія (\q1)</translation>
+      <translation lang="id">Puisi (\q1)</translation>
+      <translation lang="zh">诗　(\q1)</translation>
+      <translation lang="hin">कविता  (\q1)</translation>
+      <translation lang="mal">കവിത (\q1)</translation>
+    </translation-mapping>
+    <translation-mapping id="Editor_Insert_SubHeading">
+      <translation lang="en">Sub Heading (\\s)</translation>
+      <translation lang="fr">Sous-titre (\\s)</translation>
+      <translation lang="es">Sub-título (\s)</translation>
+      <translation lang="pt">Subtítulo (\s)</translation>
+      <translation lang="ru">Подзаголовок (\s)</translation>
+      <translation lang="uk">Підзаголовок (\s)</translation>
+      <translation lang="id">Sub-Judul (\s)</translation>
+      <translation lang="zh">副标题(\s)</translation>
+      <translation lang="hin">उप शीर्षक (\s)</translation>
+      <translation lang="mal">ഉപ തലക്കെട്ട് (\s)</translation>
+    </translation-mapping>
+    <translation-mapping id="Editor_Insert_Footnote">
+      <translation lang="en">Footnote (\\f ...\\f*)</translation>
+      <translation lang="fr">Note (\\f ...\\f*)</translation>
+      <translation lang="es">Nota al pie de página (\f ...\f*)</translation>
+      <translation lang="pt">Nota de rodapé (\f ...\f*)</translation>
+      <translation lang="ru">Сноска (\f... \f*)</translation>
+      <translation lang="uk">Виноска (\f... \f*)</translation>
+      <translation lang="id">catatan kaki (\f... \f*)</translation>
+      <translation lang="zh">脚注(\f... \f*)</translation>
+      <translation lang="hin">पाद लेख (\f... \f*)</translation>
+      <translation lang="mal">അടിക്കുറിപ്പ്  (\f... \f*)</translation>
+    </translation-mapping>
+    <translation-mapping id="Editor_Insert_Other">
+      <translation lang="en">Other (\\)</translation>
+      <translation lang="fr">Autre (\\)</translation>
+      <translation lang="es">Otro (\\)</translation>
+      <translation lang="pt">Outro (\\)</translation>
+      <translation lang="id">lain-lain (\\)</translation>
+      <translation lang="ru">Прочее (\\)</translation>
+      <translation lang="uk">Решта (\\)</translation>
+      <translation lang="zh">其他的(\\)</translation>
+      <translation lang="hin">अन्य  (\\)</translation>
+      <translation lang="ml‍">മറ്റുള്ളവ (\\)</translation>
+    </translation-mapping>
+    <translation-mapping id="Text_Copied">
+      <translation lang="en">Text copied</translation>
+      <translation lang="fr">Texte copié</translation>
+      <translation lang="tr">Metin kopyalandı</translation>
+      <translation lang="id">Teks disalin</translation>
+      <translation lang="hin">टेक्स्ट की प्रतिलिपि बनाई गई</translation>
+      <translation lang="mal">ടെക്സ്റ്റ് പകർത്തി</translation>
+      <translation lang="es">Texto copiado</translation>
+      <translation lang="pt">Texto copiado</translation>
+    </translation-mapping>
+    <translation-mapping id="Version_Number">
+      <translation lang="en">Version %s</translation>
+      <translation lang="fr">Version %s</translation>
+      <translation lang="tr">Sürüm %s</translation>
+      <translation lang="es">Versión %s</translation>
+      <translation lang="pt">Versão%s</translation>
+    </translation-mapping>
+    <translation-mapping id="Security_Device_Id">
+      <translation lang="en">Device ID</translation>
+      <translation lang="fr">ID de l&apos;appareil</translation>
+      <translation lang="es">ID del aparato</translation>
+    </translation-mapping>
+    <translation-mapping id="Security_Enter_PIN">
+      <translation lang="en">Please enter your PIN</translation>
+      <translation lang="fr">Veuillez saisir votre code</translation>
+    </translation-mapping>
+    <translation-mapping id="Security_Incorrect_PIN">
+      <translation lang="en">Incorrect PIN</translation>
+      <translation lang="fr">Code incorrect</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_en">
+      <translation lang="en">English</translation>
+      <translation lang="fr">Anglais</translation>
+      <translation lang="es">Inglés</translation>
+      <translation lang="tr">İngilizce</translation>
+      <translation lang="id">Inggris</translation>
+      <translation lang="hin">अंग्रेजी</translation>
+      <translation lang="mal">ഇംഗ്ലീഷ്</translation>
+      <translation lang="pt">Inglês</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_fr">
+      <translation lang="en">French</translation>
+      <translation lang="fr">Français</translation>
+      <translation lang="es">Francés</translation>
+      <translation lang="tr">Fransızca</translation>
+      <translation lang="id">Perancis</translation>
+      <translation lang="hin">फ्रांसीसी</translation>
+      <translation lang="mal">ഫ്രഞ്ച്</translation>
+      <translation lang="pt">Francês</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_id">
+      <translation lang="en">Indonesian</translation>
+      <translation lang="fr">Indonesien</translation>
+      <translation lang="es">Indonesio</translation>
+      <translation lang="tr">Endonezyaca</translation>
+      <translation lang="id">Bahasa Indonesia</translation>
+      <translation lang="hin">इन्डोनेशियाई</translation>
+      <translation lang="mal">ഇന്തോനേഷ്യന്‍</translation>
+      <translation lang="pt">Indonésio</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_pt">
+      <translation lang="en">Portuguese</translation>
+      <translation lang="fr">Portugais</translation>
+      <translation lang="es">Portugués</translation>
+      <translation lang="tr">Portekizce</translation>
+      <translation lang="id">Portugis</translation>
+      <translation lang="hin">पुर्तगाली</translation>
+      <translation lang="mal">പോര്‍ച്ചുഗീസ്</translation>
+      <translation lang="pt">Português</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_ru">
+      <translation lang="en">Russian</translation>
+      <translation lang="fr">Russe</translation>
+      <translation lang="es">Ruso</translation>
+      <translation lang="tr">Rusça</translation>
+      <translation lang="id">Rusia</translation>
+      <translation lang="hin">रूसी</translation>
+      <translation lang="mal">റഷ്യന്‍</translation>
+      <translation lang="pt">Russo</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_es">
+      <translation lang="en">Spanish</translation>
+      <translation lang="fr">Espagnol</translation>
+      <translation lang="es">Español</translation>
+      <translation lang="tr">İspanyolca</translation>
+      <translation lang="id">Spanyol</translation>
+      <translation lang="hin">स्पेनिश</translation>
+      <translation lang="mal">സ്പാനിഷ്‌</translation>
+      <translation lang="pt">Espanhol</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_tr">
+      <translation lang="en">Turkish</translation>
+      <translation lang="es">Turco</translation>
+      <translation lang="fr">Turc</translation>
+      <translation lang="tr">Türkçe</translation>
+      <translation lang="pt">Turco</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_uk">
+      <translation lang="en">Ukrainian</translation>
+      <translation lang="fr">Ukrainien</translation>
+      <translation lang="tr">Ukraynaca</translation>
+      <translation lang="id">Ukraina</translation>
+      <translation lang="hin">यूक्रेनी</translation>
+      <translation lang="mal">ഉക്രേനിയന്‍</translation>
+      <translation lang="es">Ucraniano</translation>
+      <translation lang="pt">Ucraniano</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_zh">
+      <translation lang="en">Chinese (Simplified)</translation>
+      <translation lang="fr">Chinois (simplifié)</translation>
+      <translation lang="tr">Çince (Basitleştirilmiş)</translation>
+      <translation lang="id">Cina</translation>
+      <translation lang="hin">चीनी</translation>
+      <translation lang="mal">ചൈനീസ്</translation>
+      <translation lang="es">Chino (Simplificado)</translation>
+      <translation lang="pt">Chinês (Simplificado)</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_hin">
+      <translation lang="en">Hindi</translation>
+      <translation lang="fr">Hindi</translation>
+    </translation-mapping>
+    <translation-mapping id="Language_mal">
+      <translation lang="en">Malayalam</translation>
+      <translation lang="fr">Malayalam</translation>
+    </translation-mapping>
+    <translation-mapping id="Chapter_Introduction_Title">
+      <translation lang="en">Introduction</translation>
+      <translation lang="fr">Introduction</translation>
+      <translation lang="es">Introducción</translation>
+      <translation lang="pt">Introdução</translation>
+      <translation lang="ru">Предисловие</translation>
+      <translation lang="uk">Передмова</translation>
+      <translation lang="tr">Giriş</translation>
+      <translation lang="id">Pengantar</translation>
+      <translation lang="zh">引言</translation>
+      <translation lang="hin">परिचय</translation>
+      <translation lang="mal">ആമുഖം</translation>
+    </translation-mapping>
+    <translation-mapping id="Chapter_Introduction_Symbol">
+      <translation lang="en">i</translation>
+      <translation lang="fr">i</translation>
+      <translation lang="es">i</translation>
+      <translation lang="pt">i</translation>
+      <translation lang="ru">п</translation>
+      <translation lang="uk">п</translation>
+      <translation lang="tr">I</translation>
+      <translation lang="id">p</translation>
+      <translation lang="zh">引</translation>
+      <translation lang="hin">प.</translation>
+      <translation lang="mal">ആ.</translation>
+    </translation-mapping>
+  </translation-mappings>
+</app-definition>
